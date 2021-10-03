@@ -25,15 +25,24 @@ function AboutPage() {
                 <SkillsSection skill={'UI Automation'} progress={'76%'} width={'76%'} />
             </div>
 
+            <div >
             <Tittle title={'Experience'} span={'Experience'} />
             <div className="servives-container" style={{display:"flex",flexDirection:"column"}}>
 
-               <a target="_blank" href="http://dsinnovators.com/" style={{textDecoration: "none"}} ><h1>Dynamic Solution Innovators</h1></a>
+               <a target="_blank" href="http://dsinnovators.com/" style={{textDecoration: "none", color:"#A4ACC4"}} ><h1>Dynamic Solution Innovators</h1></a>
                 <p>Software Quality Assurance Engineering</p>
                 <p> February 2021 - Present</p>
-
+            </div>
             </div>
 
+            <div style={{margin:"4rem 0"}}>
+            <Tittle title={'Education'} span={'Education'} />
+            <div className="servives-container" style={{display:"flex",flexDirection:"column"}}>
+                <h1>B.Sc in Computer Science & Engineering</h1>
+                <p>BRAC University </p>
+                <p> January 2016 - October 2020</p>
+            </div>
+            </div>
         </div>
     )
 }

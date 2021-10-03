@@ -3,9 +3,10 @@ import NavBar from './Components/NavBar';
 import HomePage from './Pages/HomePage';
 import {Switch, Route} from 'react-router-dom';
 import AboutPage from './Pages/AboutPage';
-import PortfliosPage from './Pages/PortfoliosPage';
+import PortfoliosPage from './Pages/PortfoliosPage';
 import ContactPage from './Pages/ContactPage';
 import { useState } from 'react';
+;
 
 function App() {
   const [navToggle, setNavToggle] = useState(false);
@@ -34,7 +35,7 @@ function App() {
                 <AboutPage />
               </Route>
               <Route path="/portfolios" exact>
-                <PortfliosPage />
+                <PortfoliosPage />
               </Route>
               <Route path="/contact" exact>
                 <ContactPage />
