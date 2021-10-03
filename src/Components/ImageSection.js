@@ -11,7 +11,7 @@ function ImageSection() {
             <div className="about-info">
                 <h4>I am<span> Sultan Parvez</span></h4>
                 <p className="about-text">
-                    An enthusiastic software engineer love to take on challenges. Perhaps the best thing about me is being competitive. Love working with the team. Always open to new challenges. I believe communication is the best way to learn and understand things.
+                    A motivated software engineer, who enjoys taking on new challenges. I'm not afraid to venture down new paths. I like being a part of the team. Communication, in my opinion, is the most effective means of learning and comprehension.
                 </p>
                 <div className="about-details">
                     <div className="left-section">

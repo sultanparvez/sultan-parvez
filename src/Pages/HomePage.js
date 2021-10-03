@@ -13,7 +13,7 @@ function HomePage() {
                     <span> Sultan Parvez</span>
                 </h1>
                 <p className="h-sub-text">
-                    A Software Engineer, Currently working as an Software Quality Assurance Engineer at DSi.
+                    A Software Engineer, Currently working as a Software Quality Assurance Engineer at DSi.
                     I love to learn and explore new things.
                 </p>
                 <div className="icons">
