@@ -9,12 +9,12 @@ function HomePage() {
         <div className="HomePage">
             <header className="hero">
                 <h1 className="hero-text">
-                    Hi, I am 
+                    Hello, my name is
                     <span> Sultan Parvez</span>
                 </h1>
                 <p className="h-sub-text">
                     A Software Engineer, Currently working as a Software Quality Assurance Engineer at DSi.
-                    I love to learn and explore new things.
+                    I enjoy learning and exploring new things.
                 </p>
                 <div className="icons">
                     <a target="_blank" href="https://www.linkedin.com/in/sultanparvez/" className="icon-holder">
