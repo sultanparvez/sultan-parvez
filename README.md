@@ -5,4 +5,4 @@ Personal Portfolio
 * @material-ui/icons,
 * particles.js
 * react,
-* SCSS
+* sass
