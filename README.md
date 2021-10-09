@@ -3,5 +3,6 @@ Personal Portfolio
 ## Included
 * @material-ui/core,
 * @material-ui/icons,
-* React,
-* scss
+* particles.js
+* react,
+* SCSS
