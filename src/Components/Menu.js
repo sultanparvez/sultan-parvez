@@ -30,8 +30,8 @@ function Menu({menuItem}) {
                                     </li> }
                                 </ul>
                             </div>
-                            <h6>{item.title}</h6>
-                            <p>{item.text}</p>
+                            <h5>{item.title}</h5>
+                            <p>{item.description}</p>
                         </div>
                     </div>
                 })

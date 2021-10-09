@@ -18,7 +18,7 @@ const portfolios = [
         icon1: 'G',
         icon2: 'L',
         image: port1,
-        title: 'Souvenirs',
+        title: 'souvenirs',
         description:"An website where you can share your precious memory with others"
     },
     {
