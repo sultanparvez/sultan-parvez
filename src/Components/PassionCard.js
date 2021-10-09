@@ -1,19 +1,19 @@
 import React from 'react'
 import styled from 'styled-components';
 
-function ServiceCard({image, title, paragraph}) {
+function PassionCard({image, title, paragraph}) {
     return (
-        <ServiceCardStyled >
+        <PassionCardStyled >
             <div className="container">
                 <img src={image} alt=""/>
                 <h4>{title}</h4>
                 <p>{paragraph}</p>
             </div>
-        </ServiceCardStyled >
+        </PassionCardStyled>
     )
 }
 
-const ServiceCardStyled = styled.div`
+const PassionCardStyled = styled.div`
     background-color: var(--background-dark-grey);
     border-left: 1px solid var(--border-color);
     border-top: 8px solid var(--border-color);
@@ -49,4 +49,4 @@ const ServiceCardStyled = styled.div`
     }
 `;
 
-export default ServiceCard;
+export default PassionCard;

@@ -3,16 +3,17 @@ import styled from 'styled-components';
 import ImageSection from '../Components/ImageSection';
 import Title from '../Components/Title';
 import {MainLayout} from '../styles/Layouts';
-import ServicesSection from '../Components/ServicesSection';
-
+import PassionSection from '../Components/PassionSection';
+import Particle from '../Components/Particle';
 
 function AboutPage() {
     return (
+
         <MainLayout>
             <AboutStyled >
                 <Title title={'About Me'} span={'About Me'} />
                 <ImageSection />
-                <ServicesSection />
+                <PassionSection />
             </AboutStyled >
         </MainLayout>
     )

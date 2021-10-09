@@ -7,12 +7,12 @@ import design from '../img/design.svg';
 import intelligence from '../img/intelligence.svg';
 import gamedev from '../img/game-dev.svg';
 
-function ServicesSection() {
+function PassionSection() {
     return (
         <InnerLayout>
             <ServicesSectionStyled>
                 <Title title={'Passion'} span={'Passion'} />
-                <div className="services">
+                <div className="passion">
                     <PassionCard
                         image={design} 
                         title={'Web Development'}
@@ -39,7 +39,7 @@ function ServicesSection() {
 }
 
 const ServicesSectionStyled = styled.section`
-    .services{
+    .passion{
         margin-top: 5rem;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -57,4 +57,4 @@ const ServicesSectionStyled = styled.section`
     }
 `;
 
-export default ServicesSection;
+export default PassionSection;
