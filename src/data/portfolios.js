@@ -86,7 +86,7 @@ const portfolios = [
     {
         id: 8,
         category: 'Machine Learning',
-        link1: 'https://github.com/fahimdipto/Reinforcement-learning-applied-to-finance',
+        // link1: 'https://github.com/fahimdipto/Reinforcement-learning-applied-to-finance',
         icon1: 'G',
 
         image: port4,
@@ -97,7 +97,7 @@ const portfolios = [
     {
         id: 9,
         category: 'IOT',
-        link1: 'https://github.com/fahimdipto/Reinforcement-learning-applied-to-finance',
+        link1: 'https://github.com/fahimdipto/Weather-Station',
         icon1: 'G',
 
         image: iot,
@@ -113,7 +113,7 @@ const portfolios = [
 
         image: automation2,
         title: 'Task Tracker Automation',
-        description: 'An automation testing script developed SuperTest,chai library and Mocha,mochawesome framework.'
+        description: 'An API testing automation, Here I tested different functionality of a site I developed.'
 
     },
     {
@@ -124,7 +124,7 @@ const portfolios = [
 
         image: automation,
         title: 'Ui Automation',
-        description: 'This Automation was developed using cypress, Here I tested different functionality of an website I created.'
+        description: 'This Automation script was developed using cypress, Here I tested different functionality of an website I developed.'
 
     }
 ]
