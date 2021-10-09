@@ -20,16 +20,14 @@ function ImageSection() {
                         <p>Age</p>
                         <p>Nationality</p>
                         <p>Languages</p>
-                        <p>Address</p>
-                        <p>Countries</p>
+
                     </div>
                     <div className="info">
                         <p>: MD. Sultan Parvez</p>
                         <p>: 24</p>
                         <p>: Bangladeshi</p>
                         <p>: English, Bengali, French, Chinese</p>
-                        <p>: House#38 Saleh Bhaban, Jatrabari, Dhaka, Bangladesh</p>
-                        <p>: Bangladesh</p>
+
                     </div>
                 </div>
 
@@ -52,6 +50,7 @@ const ImageSectionStyled = styled.div`
     }
     .left-content{
         width: 100%;
+        
         img{
             width: 95%;
             object-fit: cover;

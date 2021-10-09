@@ -24,7 +24,7 @@ function ContactPage() {
 
                 </div>
                 <div className="right-content">
-                    <ContactItem title={'Phone'} icon={phone} cont1={'+66-789675637'} cont2={'07663520283'} />
+                    <ContactItem title={'Phone'} icon={phone} cont1={'+880-1516159311'} cont2={'+880-11762178895'} />
                     <ContactItem title={'Email'} icon={email} cont1={'sultanparvez77.sp@gmail.com'}  />
                     <ContactItem title={'Address'} icon={location} cont1={'House#38, Saleh Bhaban, Jatrabari, Dhaka'} cont2={'Bangladesh'} />
                     
