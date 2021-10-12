@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 
-function ResumeItem({year, title, subTitle, text}) {
+function ResumeItem({year, title, subTitle, text, link}) {
     return (
         <ResumeItemStyled>
             <div className="left-content">
@@ -9,7 +9,7 @@ function ResumeItem({year, title, subTitle, text}) {
             </div>
             <div className="right-content">
                 <h5>{title}</h5>
-                <h6>{subTitle}</h6>
+                {link ? <a target="_blank" href={link}><h6>{subTitle}</h6></a> :<h6>{subTitle}</h6>}
                 {text &&<p>{text}</p>}
             </div>
         </ResumeItemStyled>
@@ -49,13 +49,13 @@ const ResumeItemStyled = styled.div`
         padding-left: 5rem;
         position: relative;
         &::before{
-            content: "";
-            position: absolute;
-            left: 0;
-            top: 15px;
-            height: 2px;
-            width: 3rem;
-            background-color: var(--border-color);
+            //content: "";
+            //position: absolute;
+            //left: 0;
+            //top: 15px;
+            //height: 2px;
+            //width: 3rem;
+            //background-color: var(--border-color);
         }
         h5{
             color: var(--primary-color);
@@ -66,6 +66,9 @@ const ResumeItemStyled = styled.div`
             padding-bottom: .6rem;
             font-size: 1.5rem;
         }
+      p {
+        white-space: pre-wrap;
+      }
     }
 `;
 export default ResumeItem;

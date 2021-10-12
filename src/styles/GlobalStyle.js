@@ -66,7 +66,8 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
-    font-family: 'Nunito', sans-serif;
+    //font-family: 'Nunito', sans-serif;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 1.1rem;
 
   }

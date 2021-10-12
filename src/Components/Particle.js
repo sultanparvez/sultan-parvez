@@ -9,23 +9,23 @@ function Particle() {
               params={{
                 "particles": {
                   "number": {
-                    "value": 87,
+                    "value": 9,
                     "density": {
                       "enable": true,
                       "value_area": 800
                     }
                   },
                   "color": {
-                    "value": "#fff"
+                    "value": "#373a4d"
                   },
                   "shape": {
-                    "type": "circle",
+                    "type": "polygon",
                     "stroke": {
                       "width": 0,
-                      "color": "#000000"
+                      "color": "#0f0d0d"
                     },
                     "polygon": {
-                      "nb_sides": 5
+                      "nb_sides": 7
                     },
                     "image": {
                       "src": "img/github.svg",
@@ -34,7 +34,7 @@ function Particle() {
                     }
                   },
                   "opacity": {
-                    "value": 0.44093831673801875,
+                    "value": 0.21306986324071361,
                     "random": true,
                     "anim": {
                       "enable": false,
@@ -44,26 +44,26 @@ function Particle() {
                     }
                   },
                   "size": {
-                    "value": 5,
-                    "random": true,
+                    "value": 160,
+                    "random": false,
                     "anim": {
-                      "enable": false,
-                      "speed": 40,
-                      "size_min": 0.1,
+                      "enable": true,
+                      "speed": 10,
+                      "size_min": 40,
                       "sync": false
                     }
                   },
                   "line_linked": {
                     "enable": false,
-                    "distance": 500,
+                    "distance": 200,
                     "color": "#ffffff",
-                    "opacity": 0.4,
+                    "opacity": 1,
                     "width": 2
                   },
                   "move": {
                     "enable": true,
-                    "speed": 0.5,
-                    "direction": "bottom",
+                    "speed": 5,
+                    "direction": "none",
                     "random": false,
                     "straight": false,
                     "out_mode": "out",
@@ -80,11 +80,11 @@ function Particle() {
                   "events": {
                     "onhover": {
                       "enable": true,
-                      "mode": "bubble"
+                      "mode": "repulse"
                     },
                     "onclick": {
                       "enable": true,
-                      "mode": "repulse"
+                      "mode": "remove"
                     },
                     "resize": true
                   },
@@ -92,18 +92,18 @@ function Particle() {
                     "grab": {
                       "distance": 400,
                       "line_linked": {
-                        "opacity": 0.5
+                        "opacity": 1
                       }
                     },
                     "bubble": {
                       "distance": 400,
-                      "size": 4,
-                      "duration": 0.3,
-                      "opacity": 1,
+                      "size": 40,
+                      "duration": 2,
+                      "opacity": 8,
                       "speed": 3
                     },
                     "repulse": {
-                      "distance": 200,
+                      "distance": 227.38161944437664,
                       "duration": 0.4
                     },
                     "push": {

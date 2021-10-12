@@ -15,7 +15,7 @@ function PassionSection() {
                 <div className="passion">
                     <PassionCard
                         image={design} 
-                        title={'Web Development'}
+                        title={'Software Engineering'}
                         paragraph={'I enjoy developing interactive UI and building complex modules. It is fascinating when we can design something which is already in our mind. When I am building an API for the backend it feels like solving a really interesting puzzle. And working on the frontend gives the pleasure of creating something.'}
                     />
                     <div className="mid-card">

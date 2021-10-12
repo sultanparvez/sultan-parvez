@@ -38,7 +38,7 @@ function Skills() {
                             text={'70%'}
                         />
                         <ProgressBar
-                            title={'MongoDb'}
+                            title={'MongoDB'}
                             width={'50%'}
                             text={'50%'}
                         />

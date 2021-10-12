@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 import {NavLink} from 'react-router-dom';
-import avatar from '../img/avatar.png';
+import avatar from '../img/avatar3.png';
 
 function Navigation() {
     return (
@@ -27,7 +27,7 @@ function Navigation() {
                 </li>
             </ul>
             <footer className="footer">
-                <p>&copy;<b>Sultan Parvez</b></p>
+                <p style={{background: 'transparent',fontFamily:  'cursive'}}>&copy;<b>Sultan Parvez</b></p>
             </footer>
         </NavigationStyled>
     )
