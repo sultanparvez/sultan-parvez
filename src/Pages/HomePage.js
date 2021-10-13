@@ -5,7 +5,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GithubIcon from '@material-ui/icons/GitHub';
 import Particle from '../Components/Particle';
 
-function HomePage() {
+const HomePage=()=> {
     return (
         <HomePageStyled>
             <div className="particle-con">

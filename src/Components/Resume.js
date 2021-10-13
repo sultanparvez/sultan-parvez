@@ -50,7 +50,6 @@ function Resume() {
                         link={"https://imperialcollege.edu.bd/"}
                         subTitle={'Dhaka Imperial College'}
                         text={"\u2022 GPA: 5.00 out of 5.00.\n\u2022 Award of Merit: Gold Medal."}
-
                     />
 
                 </div>

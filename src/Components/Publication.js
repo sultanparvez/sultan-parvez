@@ -6,7 +6,7 @@ import SmallTitle from '../Components/SmallTitle';
 import LibraryBooksIcon from '@material-ui/icons/LibraryBooks';
 import ResumeItem from '../Components/ResumeItem';
 
-function Resume() {
+const Publication=() =>{
     const publication = <LibraryBooksIcon/>
 
     return (
@@ -44,4 +44,4 @@ const ResumeStyled = styled.section`
         border-left: 2px solid var(--border-color);
     }
 `;
-export default Resume
+export default Publication

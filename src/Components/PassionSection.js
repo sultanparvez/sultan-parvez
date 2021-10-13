@@ -7,7 +7,7 @@ import design from '../img/design.svg';
 import intelligence from '../img/intelligence.svg';
 import gamedev from '../img/game-dev.svg';
 
-function PassionSection() {
+const PassionSection=() =>{
     return (
         <InnerLayout>
             <ServicesSectionStyled>

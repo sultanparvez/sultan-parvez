@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 
-function PassionCard({image, title, paragraph}) {
+const  PassionCard=({image, title, paragraph})=> {
     return (
         <PassionCardStyled >
             <div className="container">

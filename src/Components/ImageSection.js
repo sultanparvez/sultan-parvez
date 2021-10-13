@@ -1,16 +1,18 @@
-import React from 'react'
+import React,{useRef,useEffect} from 'react'
 import styled from 'styled-components';
 import resume from '../img/about.jpg';
 import cv from "../assets/MD_Sultan_Parvez.pdf"
 
-function ImageSection() {
+
+const ImageSection=()=> {
+    const name = useRef('Sultan Parvez')
     return (
         <ImageSectionStyled>
             <div className="left-content">
                 <img src={resume} alt=""/>
             </div>
             <div className="right-content">
-                <h4>I am <span>Sultan Parvez</span></h4>
+                <h4>I am <span>{name.current}</span></h4>
                 <p className="paragraph">
                     A motivated software engineer, who enjoys taking on new challenges. I'm not afraid to venture down new paths. I like being a part of the team. Communication, in my opinion, is the most effective means of learning and comprehension.
                 </p>

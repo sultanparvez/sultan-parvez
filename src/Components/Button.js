@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-function Button({filter, button}) {
+const Button=({filter, button})=> {
     return (
         <ButtonsStyled>
             {

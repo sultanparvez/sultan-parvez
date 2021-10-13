@@ -17,7 +17,7 @@ function ResumeItem({year, title, subTitle, text, link}) {
 }
 
 const ResumeItemStyled = styled.div`
-    display: flex;
+    display: flow;
     @media screen and (max-width: 421px){
         p, h5, h6{
             font-size: 80%;
@@ -27,7 +27,7 @@ const ResumeItemStyled = styled.div`
         padding-bottom: 3rem;
     }
     .left-content{
-        width: 50%;
+        width: 30%;
         padding-left: 20px;
         position: relative;
         &::before{
@@ -46,16 +46,17 @@ const ResumeItemStyled = styled.div`
         }
     }
     .right-content{
+        width: 70%;
         padding-left: 5rem;
         position: relative;
         &::before{
-            //content: "";
-            //position: absolute;
-            //left: 0;
-            //top: 15px;
-            //height: 2px;
-            //width: 3rem;
-            //background-color: var(--border-color);
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 15px;
+            height: 2px;
+            width: 3rem;
+            background-color: var(--border-color);
         }
         h5{
             color: var(--primary-color);

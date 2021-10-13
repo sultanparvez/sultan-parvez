@@ -2,7 +2,7 @@ import Particles from 'react-particles-js';
 
 import React from 'react';
 
-function Particle() {
+const Particle=()=> {
   return (
     <>
       <Particles width="100%" height="100vh" 

@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import GitHub from '@material-ui/icons/GitHub';
 import WebIcon from '@material-ui/icons/Web';
 
-function Menu({menuItem}) {
+const Menu=({menuItem})=> {
     return (
         <MenuItemStyled >
             {
@@ -30,7 +30,7 @@ function Menu({menuItem}) {
                                     </li> }
                                 </ul>
                             </div>
-                            <h5>{item.title}</h5>
+                            <h2>{item.title}</h2>
                             <p>{item.description}</p>
                         </div>
                     </div>
@@ -55,8 +55,9 @@ const MenuItemStyled = styled.div`
             display: block;
             position: relative;
             overflow: hidden;
-            h6{
-                font-size: 1.5rem;
+            h2{
+                font-size: 1.9rem;
+                font-family: Nunito;
             }
             img{
                 width: 100%;

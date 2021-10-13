@@ -3,7 +3,7 @@ import Skills from '../Components/Skills';
 import { MainLayout} from '../styles/Layouts';
 import Resume from '../Components/Resume';
 import Publication from '../Components/Publication';
-function ResumePage() {
+const ResumePage=() =>{
     return (
         <MainLayout>
             {/*<Publication/>*/}

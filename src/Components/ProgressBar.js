@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 
-function ProgressBar({title, width, text}) {
+const ProgressBar=({title, width, text})=> {
     return (
         <ProgressBarStyled>
             <h6>{title}</h6>

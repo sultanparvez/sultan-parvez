@@ -4,7 +4,7 @@ import {InnerLayout} from '../styles/Layouts';
 import Title from '../Components/Title';
 import ProgressBar from './ProgressBar';
 
-function Skills() {
+const Skills=()=> {
     return (
         <SkillsStyled>
 

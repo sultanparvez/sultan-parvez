@@ -7,7 +7,7 @@ import PassionSection from '../Components/PassionSection';
 import Skills from '../Components/Skills';
 import Resume from '../Components/Resume';
 
-function AboutPage() {
+const AboutPage=()=> {
     return (
 
         <MainLayout>

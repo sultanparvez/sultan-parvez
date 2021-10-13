@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components';
 import Navigation from './Navigation';
 
-function Sidebar({navToggle}) {
+const Sidebar=({navToggle}) =>{
     return (
         <SidebarStyled className={`${navToggle ? 'nav-toggle' : ''}`}>
             <Navigation />

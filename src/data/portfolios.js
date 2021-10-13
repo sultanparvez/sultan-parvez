@@ -18,7 +18,7 @@ const portfolios = [
         icon1: 'G',
         icon2: 'L',
         image: port1,
-        title: 'souvenirs',
+        title: 'Souvenirs',
         description:"An website where you can share your precious memory with others"
     },
     {
@@ -30,7 +30,7 @@ const portfolios = [
         icon2: 'L',
         image: port2,
         title: 'Ice Breaking',
-        description:"A dummy dating site, Where you can swap the person you like."
+        description:"A demo dating site, Where you can swap the person you like and get conncted to each others."
     },
     {
         id: 3,
@@ -39,7 +39,7 @@ const portfolios = [
         icon1: 'G',
         image: port3,
         title: 'Restaurant Reviews',
-        description: 'A dummy site where user can login and check and add reviews, You can search the restaurant based on there name , ZipCode and etc.'
+        description: 'A restaurant erp system where user can login and check and add reviews, You can search the restaurant based on there name , ZipCode and etc.'
     },
     {
         id: 4,

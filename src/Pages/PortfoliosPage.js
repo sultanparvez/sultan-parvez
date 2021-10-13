@@ -7,7 +7,7 @@ import Button from '../Components/Button';
 
 const allButtons = ['All', ...new Set(portfolios.map(item => item.category))]
 
-function PortfoliosPage() {
+const PortfoliosPage=()=> {
     const [menuItem, setMenuItems] = useState(portfolios);
     const [button, setButtons] = useState(allButtons);
 
