@@ -13,18 +13,18 @@ const portfolios = [
     {
         id: 1,
         category: 'MERN',
-        link1: 'https://github.com/fahimdipto/souvenir-memoir',
+        link1: 'https://github.com/sultanparvez/souvenir-memoir',
         link2: 'https://souvenir-memoirs.netlify.app/',
         icon1: 'G',
         icon2: 'L',
         image: port1,
         title: 'Souvenirs',
-        description:"An website where you can share your precious memory with others"
+        description:"An website where you can share your precious memory with others."
     },
     {
         id: 2,
         category: 'MERN',
-        link1: 'https://github.com/fahimdipto/ice-breaking',
+        link1: 'https://github.com/sultanparvez/ice-breaking',
         link2: 'https://ice-breaking.netlify.app/',
         icon1: 'G',
         icon2: 'L',
@@ -35,7 +35,7 @@ const portfolios = [
     {
         id: 3,
         category: 'MERN',
-        link1: 'https://github.com/fahimdipto/restaurant-reviews',
+        link1: 'https://github.com/sultanparvez/restaurant-reviews',
         icon1: 'G',
         image: port3,
         title: 'Restaurant Reviews',
@@ -44,7 +44,7 @@ const portfolios = [
     {
         id: 4,
         category: 'MERN',
-        link1: 'https://github.com/fahimdipto/Task-Tracker',
+        link1: 'https://github.com/sultanparvez/Task-Tracker',
 
         icon1: 'G',
 
@@ -55,7 +55,7 @@ const portfolios = [
     {
         id: 5,
         category: 'Android Development',
-        link1: 'https://github.com/fahimdipto/PrayerTimeNotification',
+        link1: 'https://github.com/sultanparvez/PrayerTimeNotification',
         icon1: 'G',
         image: port6,
         title: 'Prayer Time Notification',
@@ -64,7 +64,7 @@ const portfolios = [
     {
         id: 6,
         category: 'Django',
-        link1: 'https://github.com/fahimdipto/personal_portfolio',
+        link1: 'https://github.com/sultanparvez/personal_portfolio',
         icon1: 'G',
         icon2: 'Y',
         image: port7,
@@ -74,7 +74,7 @@ const portfolios = [
     {
         id: 7,
         category: 'IOT',
-        link1: 'https://github.com/fahimdipto/Accident-Prevention-Model',
+        link1: 'https://github.com/sultanparvez/Accident-Prevention-Model',
         icon1: 'G',
 
         image: iot,
@@ -86,7 +86,7 @@ const portfolios = [
     {
         id: 8,
         category: 'Machine Learning',
-        // link1: 'https://github.com/fahimdipto/Reinforcement-learning-applied-to-finance',
+        // link1: 'https://github.com/sultanparvez/Reinforcement-learning-applied-to-finance',
         icon1: 'G',
 
         image: port4,
@@ -97,7 +97,7 @@ const portfolios = [
     {
         id: 9,
         category: 'IOT',
-        link1: 'https://github.com/fahimdipto/Weather-Station',
+        link1: 'https://github.com/sultanparvez/Weather-Station',
         icon1: 'G',
 
         image: iot,
@@ -105,10 +105,22 @@ const portfolios = [
         description: 'A system that can predict the weather condition such as wheather is gonna rain in the upcoming few days, How the soil is, how humid the condition is.'
 
     },
+
     {
         id: 10,
         category: 'Automation',
-        link1: 'https://github.com/fahimdipto/Test-Tracker-Automation',
+        link1: 'https://github.com/sultanparvez/souvenir-memoir-ui-automation',
+        icon1: 'G',
+
+        image: automation,
+        title: 'Ui Automation',
+        description: 'This automation script was developed using cypress, Here I tested different functionality of an website I developed.'
+
+    },
+    {
+        id: 11,
+        category: 'Automation',
+        link1: 'https://github.com/sultanparvez/Test-Tracker-Automation',
         icon1: 'G',
 
         image: automation2,
@@ -117,14 +129,14 @@ const portfolios = [
 
     },
     {
-        id: 11,
+        id: 12,
         category: 'Automation',
-        link1: 'https://github.com/fahimdipto/souvenir-memoir-ui-automation',
+        link1: 'https://github.com/sultanparvez/souvenir-memoirs-api-testing',
         icon1: 'G',
 
         image: automation,
-        title: 'Ui Automation',
-        description: 'This Automation script was developed using cypress, Here I tested different functionality of an website I developed.'
+        title: 'API Automation testing',
+        description: 'An automation script was developed using cypress, Here I tested whether the API endpoints are working as expected. i.e- CRUD operation, Data fetching'
 
     }
 ]

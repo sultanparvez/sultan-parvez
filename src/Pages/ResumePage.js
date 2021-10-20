@@ -9,6 +9,7 @@ const ResumePage=() =>{
             {/*<Publication/>*/}
             <Skills />
             <Resume />
+            <Skills />
         </MainLayout>
     )
 }

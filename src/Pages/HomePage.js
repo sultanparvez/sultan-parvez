@@ -24,7 +24,7 @@ const HomePage=()=> {
                     <a target="_blank" href="https://www.linkedin.com/in/sultanparvez/" className="icon i-facebook">
                         <LinkedInIcon />
                     </a>
-                    <a target="_blank" href="https://github.com/fahimdipto" className="icon i-github">
+                    <a target="_blank" href="https://github.com/sultanparvez" className="icon i-github">
                         <GithubIcon />
                     </a>
 
