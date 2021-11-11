@@ -17,8 +17,8 @@ const ContactPage=()=> {
             <ContactPageStyled >
             <InnerLayout className={'contact-section'}>
                 <div className="left-content">
-                    <div className="map-sect">
-                        <iframe src="https://www.google.com/maps/d/u/3/embed?mid=1zAtQtpmlNiMt87lePW1MG1nE_BoD4qI3" width="640" height="480"style={{border:0}} allowFullScreen="" aria-hidden="false" tabIndex="0"></iframe>
+                    <div className="map-sect" >
+                        <iframe src="https://www.google.com/maps/d/u/3/embed?mid=1zAtQtpmlNiMt87lePW1MG1nE_BoD4qI3" width="700" height="500"style={{border:0}} allowFullScreen="" aria-hidden="false" tabIndex="0"></iframe>
                         {/*<iframe src="https://www.google.com/maps/d/u/3/embed?mid=12K1fT7DQgAgdppMgyvha5beqzmxQe5by" width="640" height="480"style={{border:0}} allowFullScreen="" aria-hidden="false" tabIndex="0"></iframe>*/}
                     </div>
 
@@ -50,7 +50,7 @@ const ContactPageStyled = styled.section`
             display: grid;
             grid-template-columns: repeat(1, 1fr);
             @media screen and (max-width: 502px){
-                width: 70%;
+                width: 100%;
             }
         }
         .contact-title{

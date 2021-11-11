@@ -23,7 +23,7 @@ const portfolios = [
     },
     {
         id: 2,
-        category: 'MERN',
+        category: 'React',
         link1: 'https://github.com/sultanparvez/ice-breaking',
         link2: 'https://ice-breaking.netlify.app/',
         icon1: 'G',
