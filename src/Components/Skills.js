@@ -13,64 +13,75 @@ const Skills=()=> {
                 <InnerLayout>
                     <div className="skills">
                         <ProgressBar 
-                            title={'Java'}
+                            title={'Javascript'}
                             width={'80%'}
-                            text={'80%'}
+                         //   text={'80%'}
+                        />
+                        <ProgressBar
+                            title={'Mocha'}
+                            width={'75%'}
+                          //  text={'75%'}
+                        />
+                        <ProgressBar
+                            title={'Node Js'}
+                            width={'70%'}
+                            // text={'70%'}
                         />
                         <ProgressBar
                             title={'PYTHON'}
-                            width={'80%'}
-                            text={'80%'}
+                            width={'68%'}
+                          //  text={'68%'}
                         />
                         <ProgressBar 
-                            title={'Javascript'}
-                            width={'70%'}
-                            text={'70%'}
+                            title={'Java'}
+                            width={'66%'}
+                          //  text={'66%'}
                         />
-                        <ProgressBar 
-                            title={'Node Js'}
-                            width={'70%'}
-                            text={'70%'}
+
+                        <ProgressBar
+                            title={'Cypress'}
+                            width={'65%'}
+                          //  text={'65%'}
                         />
-                        <ProgressBar 
+                        <ProgressBar
                             title={'React Js'}
-                            width={'70%'}
-                            text={'70%'}
+                            width={'55%'}
+                           // text={'55%'}
                         />
                         <ProgressBar
                             title={'MongoDB'}
                             width={'50%'}
-                            text={'50%'}
+                         //   text={'50%'}
                         />
                         <ProgressBar 
                             title={'MySQL'}
                             width={'50%'}
-                            text={'50%'}
+                         //   text={'50%'}
                         />
-                        <ProgressBar 
-                            title={'Mocha'}
+                        <ProgressBar
+                            title={'Chai'}
                             width={'50%'}
-                            text={'50%'}
+                        //    text={'50%'}
                         />
-                        <ProgressBar 
-                            title={'Cypress'}
-                            width={'40%'}
-                            text={'40%'}
+                        <ProgressBar
+                            title={'Cucumber'}
+                            width={'50%'}
+                        //    text={'50%'}
                         />
                         <ProgressBar
                             title={'Django'}
-                            width={'40%'}
-                            text={'40%'}
+                            width={'45%'}
+                          //  text={'45%'}
                         />
                         <ProgressBar
                             title={'Next Js'}
                             width={'20%'}
-                            text={'20%'}
+                          //  text={'20%'}
                         />
                         <ProgressBar
                             title={'TypeScript'}
                             width={'20%'}
-                            text={'20%'}
+                          //  text={'20%'}
                         />
                     </div>
                 </InnerLayout>

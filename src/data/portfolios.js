@@ -114,7 +114,7 @@ const portfolios = [
 
         image: automation,
         title: 'Ui Automation',
-        description: 'This automation script was developed using cypress, Here I tested different functionality of an website I developed.'
+        description: 'This automation script, developed using cypress. Here I tested different functionality of an website I developed.'
 
     },
     {
@@ -136,9 +136,21 @@ const portfolios = [
 
         image: automation,
         title: 'API Automation testing',
-        description: 'An automation script was developed using cypress, Here I tested whether the API endpoints are working as expected. i.e- CRUD operation, Data fetching'
+        description: 'An automation script, developed using cypress. Here I testedthe API endpoints to check if they are working as expected. i.e- CRUD operation, Data fetching'
+
+    },
+    {
+        id: 12,
+        category: 'Automation',
+        link1: 'https://github.com/sultanparvez/e_commerce_automation',
+        icon1: 'G',
+
+        image: automation,
+        title: 'E-commerce Automation',
+        description: 'An automation script, developed using cucumber, webdriver i/o. Here I tested different functionality of the site. i.e- Login Auhtentication, Searching product, Navigation'
 
     }
+
 ]
 
 export default portfolios;
