@@ -14,7 +14,7 @@ const ImageSection=()=> {
             <div className="right-content">
                 <h4>I am <span>{name.current}</span></h4>
                 <p className="paragraph">
-                    A motivated software engineer, who enjoys taking on new challenges. I'm not afraid to venture down new paths. I like being a part of the team. Communication, in my opinion, is the most effective means of learning and comprehension.
+                    A motivated software engineer, who enjoys taking on new challenges. I'm not afraid to venture down new paths. I love to create new things and always wanting to learn more, highly interested in contributing to open source. Worked professionally with a variety of automation frameworks. I'm also familiar with React, Express, Mongoose, and MongoDB. I've also worked on a number of machine learning and IoT projects.
                 </p>
                 <div className="about-info">
                     <div className="info-title">

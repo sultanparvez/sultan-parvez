@@ -16,13 +16,13 @@ const PassionSection=() =>{
                     <PassionCard
                         image={design} 
                         title={'Software Engineering'}
-                        paragraph={'I enjoy developing interactive UI and building complex modules. It is fascinating when we can design something which is already in our mind. When I am building an API for the backend it feels like solving a really interesting puzzle. And working on the frontend gives the pleasure of creating something.'}
+                        paragraph={'I adore creating interactive user interfaces and sophisticated components. It\'s fantastic to be able to construct something that already exists in our heads. It seems like I\'m solving a pretty intriguing challenge. I have developed several website, app and testing script using React, Node.js, Java , Cypress etc.'}
                     />
                     <div className="mid-card">
                         <PassionCard
                             image={intelligence} 
                             title={'Machine Learning'}
-                            paragraph={"Machine learning can do wonder. Whether it is predicting a classification problem or simulating a scenario that is impossible to simulate otherwise, it always amaze me. I am a fan Reinforcement Learning. I have explored with methods like a2c and it was an wonderful learning. I will be really  thrilled if I get more opportunity to work in this sector. "
+                            paragraph={"I have been involved in a number of machine learning projects. In one project, we utilized reinforcement learning to trade efficiently in a stock market environment. In another project, we utilized a machine learning technique to monitor credit card theft. I've also worked on a project that aimed to forecast the likelihood of cancer."
                             }
 
                         />
@@ -30,7 +30,7 @@ const PassionSection=() =>{
                     <PassionCard
                         image={gamedev} 
                         title={'Gaming'}
-                        paragraph={'Video games has been my favourite go to pass time. Enjoy playing fps shooters like CS:GO and Valorant'}
+                        paragraph={'My favorite pastime has always been video games. CS:GO and Valorant are two of my favorite first-person shooters.'}
                     />
                 </div>
             </ServicesSectionStyled>
