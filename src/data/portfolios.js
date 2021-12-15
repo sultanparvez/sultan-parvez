@@ -140,7 +140,7 @@ const portfolios = [
 
     },
     {
-        id: 12,
+        id: 13,
         category: 'Automation',
         link1: 'https://github.com/sultanparvez/e_commerce_automation',
         icon1: 'G',
