@@ -33,7 +33,8 @@ const ImageSection=()=> {
                     </div>
                 </div>
 
-                <a target="_blank" href={cv}><button  className="btn">Resume</button></a>
+                <a target="_blank" href={cv}>
+                <button  className="btn">Resume</button></a>
 
             </div>
         </ImageSectionStyled>
