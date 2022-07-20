@@ -1,6 +1,6 @@
 import React,{useRef,useEffect} from 'react'
 import styled from 'styled-components';
-import resume from '../img/about.jpg';
+import resume from '../img/DP4.jpg';
 import cv from "../assets/MD_Sultan_Parvez.pdf"
 
 

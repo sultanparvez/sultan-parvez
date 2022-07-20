@@ -7,7 +7,7 @@ import EmailIcon from '@material-ui/icons/Email';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
 import ContactItem from '../Components/ContactItem';
 import PrimaryButton from '../Components/PrimaryButton';
-import WorkSpace from "../img/Contact2.jpg";
+import WorkSpace from "../img/Setup-1.jpg";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import GithubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
