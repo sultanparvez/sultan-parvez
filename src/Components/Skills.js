@@ -17,6 +17,11 @@ const Skills=()=> {
                             width={'80%'}
                          //   text={'80%'}
                         />
+                         <ProgressBar
+                            title={'Cypress'}
+                            width={'80%'}
+                          //  text={'65%'}
+                        />
                         <ProgressBar
                             title={'Mocha'}
                             width={'75%'}
@@ -38,11 +43,6 @@ const Skills=()=> {
                           //  text={'66%'}
                         />
 
-                        <ProgressBar
-                            title={'Cypress'}
-                            width={'65%'}
-                          //  text={'65%'}
-                        />
                         <ProgressBar
                             title={'React Js'}
                             width={'55%'}
@@ -74,13 +74,13 @@ const Skills=()=> {
                           //  text={'45%'}
                         />
                         <ProgressBar
-                            title={'Next Js'}
-                            width={'20%'}
+                            title={'Selenium'}
+                            width={'30%'}
                           //  text={'20%'}
                         />
                         <ProgressBar
-                            title={'TypeScript'}
-                            width={'20%'}
+                            title={'Robot Framework'}
+                            width={'27%'}
                           //  text={'20%'}
                         />
                     </div>
