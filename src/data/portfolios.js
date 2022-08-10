@@ -20,7 +20,7 @@ const portfolios = [
 
         image: Cypress,
         title: 'UI Automation - Cypress',
-        description: 'An automation for UI Test Automation using cypress.'
+        description: 'Automation scripts for UI Test Automation using cypress.'
 
     },
     {
@@ -31,7 +31,7 @@ const portfolios = [
 
         image: selenium,
         title: 'UI Automation - Selenium',
-        description: 'An automation script for UI test automation using java and selenium web-driver'
+        description: 'Automation scripts for UI test automation using java and selenium web-driver'
 
     },
     {
@@ -83,7 +83,7 @@ const portfolios = [
         icon1: 'G',
         image: port6,
         title: 'Prayer Time Notification',
-        description: 'This is an academic Project. it is an Android Application that provides user prayer time. it also has features like view maps and set alarm.'
+        description: 'This is Academic Project. it is Android Application that provides user prayer time. it also has features like view maps and set alarm.'
     },
     {
         id: 6,
@@ -138,7 +138,7 @@ const portfolios = [
 
         image: automation,
         title: 'API Automation testing',
-        description: 'An automation script, developed using cypress. Here I testedthe API endpoints to check if they are working as expected. i.e- CRUD operation, Data fetching'
+        description: 'Automation script, developed using cypress. Here I testedthe API endpoints to check if they are working as expected. i.e- CRUD operation, Data fetching'
 
     },
     {
@@ -149,7 +149,7 @@ const portfolios = [
 
         image: automation,
         title: 'E-commerce Automation',
-        description: 'An automation script, developed using cucumber, webdriver i/o. Here I tested different functionality of the site. i.e- Login Auhtentication, Searching product, Navigation'
+        description: 'Automation script, developed using cucumber, webdriver i/o. Here I tested different functionality of the site. i.e- Login Auhtentication, Searching product, Navigation'
 
     },    {
         id: 14,
@@ -170,7 +170,7 @@ const portfolios = [
 
         image: automation2,
         title: 'Task Tracker Automation',
-        description: 'An API testing automation, Here I tested different functionality of a site I developed.'
+        description: 'API testing automation, Here I tested different functionality of a site I developed.'
 
     }
  
