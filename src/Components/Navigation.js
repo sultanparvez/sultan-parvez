@@ -2,8 +2,10 @@ import React from 'react'
 import styled from 'styled-components';
 import {NavLink} from 'react-router-dom';
 import avatar from '../img/DP 2.jpg';
+import { useState } from "react";
 
-function Navigation() {
+const Navigation=()=> {
+    const [navToggle, setNavToggle] = useState(false);
     return (
         <NavigationStyled>
             <div className="avatar">
@@ -14,7 +16,7 @@ function Navigation() {
                     <NavLink to="/" activeClassName="active-class" exact>Home</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink to="/about" activeClassName="active-class" exact>About</NavLink>
+                    <NavLink onClick={() => setNavToggle(!navToggle)} to="/about" activeClassName="active-class" exact>About</NavLink>
                 </li>
                 <li className="nav-item">
                     <NavLink to="/resume" activeClassName="active-class" exact>Info</NavLink>
