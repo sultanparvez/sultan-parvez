@@ -8,10 +8,34 @@ import port7 from '../img/portImages/port6.jpg';
 import iot from  '../img/portImages/iot.jpg';
 import automation from  '../img/portImages/automation.jpg';
 import automation2 from  '../img/portImages/automation2.jpg';
+import selenium from '../img/portImages/Selenium.PNG'
+import Cypress from '../img/portImages/Cypress.PNG'
 
 const portfolios = [
     {
         id: 1,
+        category: 'Automation',
+        link1: 'https://github.com/sultanparvez/UI-Automation-Cypress',
+        icon1: 'G',
+
+        image: Cypress,
+        title: 'UI Automation - Cypress',
+        description: 'An automation for UI Test Automation using cypress.'
+
+    },
+    {
+        id: 2,
+        category: 'Automation',
+        link1: 'https://github.com/sultanparvez/UI-Automation-Selenium',
+        icon1: 'G',
+
+        image: selenium,
+        title: 'UI Automation - Selenium',
+        description: 'An automation script for UI test automation using java and selenium web-driver'
+
+    },
+    {
+        id: 3,
         category: 'MERN',
         link1: 'https://github.com/sultanparvez/souvenir-memoir',
         link2: 'https://souvenir-memoirs.netlify.app/',
@@ -22,7 +46,7 @@ const portfolios = [
         description:"An website where you can share your precious memory with others."
     },
     {
-        id: 2,
+        id: 4,
         category: 'React',
         link1: 'https://github.com/sultanparvez/ice-breaking',
         link2: 'https://ice-breaking.netlify.app/',
@@ -33,7 +57,7 @@ const portfolios = [
         description:"A demo dating site, Where you can swap the person you like and get conncted to each others."
     },
     {
-        id: 3,
+        id: 10,
         category: 'MERN',
         link1: 'https://github.com/sultanparvez/restaurant-reviews',
         icon1: 'G',
@@ -42,7 +66,7 @@ const portfolios = [
         description: 'A restaurant erp system where user can login and check and add reviews, You can search the restaurant based on there name , ZipCode and etc.'
     },
     {
-        id: 4,
+        id: 11,
         category: 'MERN',
         link1: 'https://github.com/sultanparvez/Task-Tracker',
 
@@ -105,29 +129,7 @@ const portfolios = [
         description: 'A system that can predict the weather condition such as wheather is gonna rain in the upcoming few days, How the soil is, how humid the condition is.'
 
     },
-
-    {
-        id: 10,
-        category: 'Automation',
-        link1: 'https://github.com/sultanparvez/souvenir-memoir-ui-automation',
-        icon1: 'G',
-
-        image: automation,
-        title: 'Ui Automation',
-        description: 'This automation script, developed using cypress. Here I tested different functionality of an website I developed.'
-
-    },
-    {
-        id: 11,
-        category: 'Automation',
-        link1: 'https://github.com/sultanparvez/Test-Tracker-Automation',
-        icon1: 'G',
-
-        image: automation2,
-        title: 'Task Tracker Automation',
-        description: 'An API testing automation, Here I tested different functionality of a site I developed.'
-
-    },
+  
     {
         id: 12,
         category: 'Automation',
@@ -149,7 +151,29 @@ const portfolios = [
         title: 'E-commerce Automation',
         description: 'An automation script, developed using cucumber, webdriver i/o. Here I tested different functionality of the site. i.e- Login Auhtentication, Searching product, Navigation'
 
+    },    {
+        id: 14,
+        category: 'Automation',
+        link1: 'https://github.com/sultanparvez/souvenir-memoir-ui-automation',
+        icon1: 'G',
+
+        image: automation,
+        title: 'Souvenior Memoir Ui Automation',
+        description: 'This automation script, developed using cypress. Here I tested different UI of an website I developed.'
+
+    },
+    {
+        id: 15,
+        category: 'Automation',
+        link1: 'https://github.com/sultanparvez/Test-Tracker-Automation',
+        icon1: 'G',
+
+        image: automation2,
+        title: 'Task Tracker Automation',
+        description: 'An API testing automation, Here I tested different functionality of a site I developed.'
+
     }
+ 
 
 ]
 
