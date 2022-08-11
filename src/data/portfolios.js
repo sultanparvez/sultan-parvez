@@ -20,7 +20,16 @@ const portfolios = [
 
         image: Cypress,
         title: 'UI Automation - Cypress',
-        description: 'Automation scripts for UI Test Automation using cypress.'
+        description: 'Automation scripts for UI Test Automation utilizing cypress. Agenda: ' +
+            ' Navigating a to a e-commerce site.' +
+            ' Login to the website. '+
+            ' Select few products. '+
+            ' Remove a a selected product. '+
+            ' Proceed to checkout. '+
+            ' Fill up the shipping details. '+
+            ' Proceed to continue. '+
+            ' Finish the checkout process. '+
+            ' Asserting various elements and values in every steps mentioned above.'
 
     },
     {
@@ -31,7 +40,16 @@ const portfolios = [
 
         image: selenium,
         title: 'UI Automation - Selenium',
-        description: 'Automation scripts for UI test automation using java and selenium web-driver'
+        description: 'Automation scripts for UI test automation using java and selenium web-driver. Agenda: ' +
+            ' Navigating a to a e-commerce site.' +
+            ' Login to the website. ' +
+            ' Select few products.  '+
+            ' Remove a a selected product. ' +
+            ' Proceed to checkout. ' +
+            ' Fill up the shipping details. '+
+            ' Proceed to continue. '+
+            ' Finish the checkout process. ' +
+            ' Asserting various elements and values in every steps mentioned above.'
 
     },
     {
@@ -54,7 +72,7 @@ const portfolios = [
         icon2: 'L',
         image: port2,
         title: 'Ice Breaking',
-        description:"A demo dating site, Where you can swap the person you like and get conncted to each others."
+        description:"A replica of popular matchmaking sites, Users can swap on others profile if they find someone with similar interests and get connected to each others."
     },
     {
         id: 10,
@@ -83,7 +101,7 @@ const portfolios = [
         icon1: 'G',
         image: port6,
         title: 'Prayer Time Notification',
-        description: 'This is Academic Project. it is Android Application that provides user prayer time. it also has features like view maps and set alarm.'
+        description: 'This is an academic project. an android application, that provides user prayer time. it also has features like view maps and set alarm.'
     },
     {
         id: 6,
@@ -103,7 +121,7 @@ const portfolios = [
 
         image: iot,
         title: 'Accident Prevention Model',
-        description: 'This project was developed using image processing, machine learning and raspberrypi. As the name suggest we build a system that can detect danger and warn the driver \n' +
+        description: 'This project was developed using image processing, machine learning and raspberrypi. As the name suggest this system can detect danger and warn the driver \n' +
             'about the imminent threat.'
 
     },
