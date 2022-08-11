@@ -9,7 +9,7 @@ const Tools=()=> {
         <ToolsStyled>
 
             
-                <Title title={'Tools'} span={'Tools'} />
+                <Title title={'Project Management Tools'} span={'Project Management Tools'} />
                 <InnerLayout>
                     <div className="skills">
                         <ToolsBar 
@@ -17,7 +17,7 @@ const Tools=()=> {
                         
                         />
                          <ToolsBar
-                            title={'Microsft Azure'}
+                            title={'Azure DevOps'}
                         
                         />
                          <ToolsBar

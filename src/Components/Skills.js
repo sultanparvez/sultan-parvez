@@ -33,14 +33,14 @@ const Skills=()=> {
                             // text={'70%'}
                         />
                         <ProgressBar
+                            title={'Java'}
+                            width={'70%'}
+                            //  text={'66%'}
+                        />
+                        <ProgressBar
                             title={'PYTHON'}
                             width={'68%'}
                           //  text={'68%'}
-                        />
-                        <ProgressBar 
-                            title={'Java'}
-                            width={'66%'}
-                          //  text={'66%'}
                         />
 
                         <ProgressBar
@@ -82,6 +82,16 @@ const Skills=()=> {
                             title={'Robot Framework'}
                             width={'27%'}
                           //  text={'20%'}
+                        />
+                        <ProgressBar
+                            title={'Jenkins'}
+                            width={'25%'}
+                            //  text={'20%'}
+                        />
+                        <ProgressBar
+                            title={'Docker'}
+                            width={'25%'}
+                            //  text={'20%'}
                         />
                     </div>
                 </InnerLayout>
