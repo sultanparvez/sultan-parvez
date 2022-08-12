@@ -1,6 +1,7 @@
 import React,{useRef,useEffect} from 'react'
 import styled from 'styled-components';
 import resume from '../img/DP4.jpg';
+import resume2 from '../img/webpic.png';
 import cv from "../assets/MD_Sultan_Parvez.pdf"
 
 
@@ -9,7 +10,7 @@ const ImageSection=()=> {
     return (
         <ImageSectionStyled>
             <div className="left-content">
-                <img src={resume} alt=""/>
+                <img src={resume2} alt=""/>
             </div>
             <div className="right-content">
                 <h4>I am <span>{name.current}</span></h4>
