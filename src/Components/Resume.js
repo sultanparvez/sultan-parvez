@@ -23,13 +23,16 @@ function Resume() {
                         title={'Software Quality Assurance Engineering'}
                         subTitle={'Dynamic Solution Innovators Ltd.'}
                         link={'http://dsinnovators.com/'}
-                        text={"\u2022 Automation testing, UI Automation.\n" +
-                        "\u2022 Analyze the requirements from Business requirement document.\n" +
-                        "\u2022 Production and UAT Testing, Functional,Smoke and regression testing.\n" +
+                        text={
+                        "\u2022 UI Automation Testing, API testing.\n" +
+                        "\u2022 Develop test cases from the Requirement document by utilizing gherkin syntax.\n" +
+                        "\u2022 Analyze the requirements from Business requirement document. \n"+
                         "\u2022 Develop test cases from the Requirement document and prioritize.\n" +
                         "\u2022 Analyze issues, recommends software changes and detailed bug report.\n" +
+                        "\u2022 Functional,Smoke and regression testing in Production and UAT.\n"+
                         "\u2022 Create and maintain test cases, test results throughout SDLC.\n" +
-                        "\u2022 Contribute to sprint planning and daily stand-ups meeting.\n"}
+                        "\u2022 Contribute to sprint planning and daily stand-ups meeting.\n"+
+                        "\u2022 Mentoring new QA members in the team.\n"}
                     />
 
                 </div>
