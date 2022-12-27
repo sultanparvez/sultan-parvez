@@ -22,16 +22,37 @@ const Skills=()=> {
                             width={'80%'}
                           //  text={'65%'}
                         />
+                         <ProgressBar
+                            title={'Selenium'}
+                            width={'78%'}
+                          //  text={'20%'}
+                        />
+                           <ProgressBar
+                            title={'Robot Framework'}
+                            width={'78%'}
+                          //  text={'20%'}
+                        />
+                        <ProgressBar
+                            title={'Postman'}
+                            width={'76%'}
+                          //  text={'20%'}
+                        />
                         <ProgressBar
                             title={'Mocha'}
                             width={'75%'}
                           //  text={'75%'}
+                        />
+                        <ProgressBar 
+                            title={'MySQL'}
+                            width={'72%'}
+                         //   text={'50%'}
                         />
                         <ProgressBar
                             title={'Node Js'}
                             width={'70%'}
                             // text={'70%'}
                         />
+                       
                         <ProgressBar
                             title={'Java'}
                             width={'70%'}
@@ -53,8 +74,8 @@ const Skills=()=> {
                             width={'50%'}
                          //   text={'50%'}
                         />
-                        <ProgressBar 
-                            title={'MySQL'}
+                        <ProgressBar
+                            title={'Jmeter'}
                             width={'50%'}
                          //   text={'50%'}
                         />
@@ -69,29 +90,19 @@ const Skills=()=> {
                         //    text={'50%'}
                         />
                         <ProgressBar
-                            title={'Django'}
-                            width={'45%'}
-                          //  text={'45%'}
-                        />
-                        <ProgressBar
-                            title={'Selenium'}
-                            width={'30%'}
-                          //  text={'20%'}
-                        />
-                        <ProgressBar
-                            title={'Robot Framework'}
-                            width={'27%'}
-                          //  text={'20%'}
-                        />
-                        <ProgressBar
                             title={'Jenkins'}
-                            width={'25%'}
+                            width={'45%'}
                             //  text={'20%'}
                         />
                         <ProgressBar
                             title={'Docker'}
-                            width={'25%'}
+                            width={'45%'}
                             //  text={'20%'}
+                        />
+                           <ProgressBar
+                            title={'Django'}
+                            width={'35%'}
+                          //  text={'45%'}
                         />
                     </div>
                 </InnerLayout>

@@ -15,7 +15,11 @@ const ImageSection=()=> {
             <div className="right-content">
                 <h4>I am <span>{name.current}</span></h4>
                 <p className="paragraph">
-                    A motivated software engineer, who enjoys taking on new challenges. I'm not afraid to venture down new paths. I love to create new things and always wanting to learn more, highly interested in contributing to open source. Worked professionally with a variety of automation frameworks. I'm also familiar with React, Express, Mongoose, and MongoDB. I've also worked on a number of machine learning and IoT projects.
+                A self motivated learner, who enjoys taking on new challenges. 
+                I have professional experience of UI Automation.
+                Also have experience of API testing , Load testing etc.
+                I comprehend SQL queries and database schema to a reasonable extent. 
+                Additionally, I am also familiar with MERN stacks. 
                 </p>
                 <div className="about-info">
                     <div className="info-title">
@@ -27,7 +31,7 @@ const ImageSection=()=> {
                     </div>
                     <div className="info">
                         <p>: MD. Sultan Parvez</p>
-                        <p>: 24</p>
+                        <p>: 25 </p>
                         <p>: Bangladeshi</p>
                         <p>: English, Bengali, French, Chinese</p>
 
