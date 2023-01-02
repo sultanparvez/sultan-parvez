@@ -18,7 +18,6 @@ const portfolios = [
         category: 'Automation',
         link1: 'https://github.com/sultanparvez/UI-Automation-Cypress',
         icon1: 'G',
-
         image: Cypress,
         title: 'UI Automation - Cypress',
         description: 'Automation scripts for UI Test Automation utilizing cypress. Agenda: ' +
@@ -75,7 +74,7 @@ const portfolios = [
         id: 4,
         category: 'MERN',
         link1: 'https://github.com/sultanparvez/souvenir-memoir',
-        link2: 'https://souvenir-memoirs.netlify.app/',
+        // link2: 'https://souvenir-memoirs.netlify.app/',
         icon1: 'G',
         icon2: 'L',
         image: port1,
@@ -86,7 +85,7 @@ const portfolios = [
         id: 5,
         category: 'React',
         link1: 'https://github.com/sultanparvez/ice-breaking',
-        link2: 'https://ice-breaking.netlify.app/',
+        // link2: 'https://ice-breaking.netlify.app/',
         icon1: 'G',
         icon2: 'L',
         image: port2,
@@ -94,7 +93,7 @@ const portfolios = [
         description:"A replica of popular matchmaking sites, Users can swap on others profile if they find someone with similar interests and get connected to each others."
     },
     {
-        id: 11,
+        id: 15,
         category: 'MERN',
         link1: 'https://github.com/sultanparvez/restaurant-reviews',
         icon1: 'G',
@@ -103,12 +102,10 @@ const portfolios = [
         description: 'A restaurant erp system where user can login and check and add reviews, You can search the restaurant based on there name , ZipCode and etc.'
     },
     {
-        id: 12,
+        id: 16,
         category: 'MERN',
         link1: 'https://github.com/sultanparvez/Task-Tracker',
-
         icon1: 'G',
-
         image: task,
         title: 'Task Tracker',
         description: 'A simple website where you can keep track of task assigned to different Individual.'
