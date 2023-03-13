@@ -14,11 +14,10 @@ const ImageSection=()=> {
             <div className="right-content">
                 <h4>I am <span>{name.current}</span></h4>
                 <p className="paragraph">
-                A self motivated learner, who enjoys taking on new challenges. 
-                I have professional experience of UI Automation.
-                Also have experience of API testing , Load testing etc.
-                I comprehend SQL queries and database schema to a reasonable extent. 
-                Additionally, I am also familiar with MERN stacks. 
+                As a seasoned Software Quality Assurance (SQA) Engineer, I have expertise in automation using tools such as Cypress, Selenium, Appium, and Robot Framework, as well as proficiency in programming languages like Java, Python, and JavaScript. 
+                Also, I am experienced in API testing using Postman and performance testing with JMeter. I am committed to learning new technologies and tools to optimize the software testing process and ensure exceptional product quality.
+                With a keen eye for detail and effective problem-solving skills, I work closely with stakeholders to deliver projects on time and meet or surpass customer expectations.
+                Additionally, I am familiar with the MERN stack.
                 </p>
                 <div className="about-info">
                     <div className="info-title">

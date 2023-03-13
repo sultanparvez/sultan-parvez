@@ -11,6 +11,7 @@ import automation2 from  '../img/portImages/automation2.jpg';
 import selenium from '../img/portImages/Selenium.PNG'
 import Cypress from '../img/portImages/Cypress.PNG'
 import Cucumber from '../img/portImages/cucumber.PNG'
+import Robot from '../img/portImages/Robot.PNG'
 
 const portfolios = [
     {
@@ -206,7 +207,20 @@ const portfolios = [
         title: 'Task Tracker Automation',
         description: 'API testing automation, Here I tested different functionality of a site I developed.'
 
-    }
+    },
+    {
+        id: 18,
+        category: 'Automation',
+        link1: 'https://github.com/sultanparvez/UI-Automation-Robot-framework',
+        icon1: 'G',
+        image: Robot,
+        title: 'UI Automation - Robot Framework',
+        description: 'Automation scripts for UI Test Automation utilizing Robot Framework. Agenda: ' +
+            ' Validate unsuccesful login. ' +
+            ' Veify the end to end ecommerce product purchase process. '+
+            ' Verify user is able to fillup the login form.'
+
+    },
  
 
 ]
