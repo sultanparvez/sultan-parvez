@@ -23,7 +23,7 @@ const PortfoliosPage=()=> {
     }
     return (
         <MainLayout>
-            <Title title={'Portfolios'} span={'portfolios'} />
+            <Title title={'Projects'} span={'Projects'} />
             <InnerLayout>
 
                 <Button filter={filter} button={button} />
