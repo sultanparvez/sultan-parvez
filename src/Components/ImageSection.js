@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import resume2 from '../img/webpic.png';
 import cv from "../assets/MD_Sultan_Parvez.pdf"
 
-
 const ImageSection=()=> {
     const name = useRef('Sultan Parvez')
     return (

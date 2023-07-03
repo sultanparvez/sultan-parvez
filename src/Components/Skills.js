@@ -3,13 +3,14 @@ import styled from 'styled-components';
 import {InnerLayout} from '../styles/Layouts';
 import Title from '../Components/Title';
 import ProgressBar from './ProgressBar';
+import ToolsBar from './ToolsBar';
 
 const Skills=()=> {
     return (
         <SkillsStyled>
 
             
-                <Title title={'Skills'} span={'Skills'} />
+                <Title title={'Language & Framewroks'} span={'Language & Framewroks'} />
                 <InnerLayout>
                     <div className="skills">
                         <ProgressBar 
@@ -89,16 +90,16 @@ const Skills=()=> {
                             width={'50%'}
                         //    text={'50%'}
                         />
-                        <ProgressBar
+                        {/* <ProgressBar
                             title={'Jenkins'}
                             width={'45%'}
                             //  text={'20%'}
-                        />
-                        <ProgressBar
+                        /> */}
+                        {/* <ProgressBar
                             title={'Docker'}
                             width={'45%'}
                             //  text={'20%'}
-                        />
+                        /> */}
                            <ProgressBar
                             title={'Django'}
                             width={'35%'}

@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components';
-import FacebookIcon from '@material-ui/icons/Facebook';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GithubIcon from '@material-ui/icons/GitHub';
 import Particle from '../Components/Particle';
@@ -8,9 +7,9 @@ import Particle from '../Components/Particle';
 const HomePage=()=> {
     return (
         <HomePageStyled>
-            <div className="particle-con">
+            {/* <div className="particle-con">
                 <Particle />
-            </div>
+            </div> */}
             <div className="typography">
                 <h1 >
                     Hello, my name is
@@ -35,10 +34,11 @@ const HomePage=()=> {
 }
 
 const HomePageStyled = styled.header`
+
     width: 100%;
     height: 100vh;
     position: relative;
-   
+
     .typography{
         position: absolute;
         top: 50%;

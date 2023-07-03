@@ -19,10 +19,10 @@ const Navigation=()=> {
                     <NavLink onClick={() => setNavToggle(!navToggle)} to="/about" activeClassName="active-class" exact>About</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink to="/resume" activeClassName="active-class" exact>Info</NavLink>
+                    <NavLink to="/resume" activeClassName="active-class" exact>Expertise & Accomplishments</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink to="/portfolios" activeClassName="active-class" exact>Portfolios</NavLink>
+                    <NavLink to="/portfolios" activeClassName="active-class" exact>Pet Projects</NavLink>
                 </li>
                 {/*<li className="nav-item">*/}
                 {/*    <NavLink to="/blogs" activeClassName="active-class" exact>Articles</NavLink>*/}
