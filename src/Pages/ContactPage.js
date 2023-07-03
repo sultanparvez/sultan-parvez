@@ -20,7 +20,7 @@ const ContactPage=()=> {
     const location = <LocationOnIcon />
    return (
      <MainLayout>
-       <Title title={"Get in Touch"} />
+       <Title title={"Get in Touch"} span={'Get in Touch'}/>
        <ContactPageStyled>
          <InnerLayout className={"contact-section"}>
            <div className="left-content">
