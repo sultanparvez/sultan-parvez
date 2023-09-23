@@ -29,6 +29,7 @@ function Resume() {
                         "\u2022 Develop test cases from the Requirement document by utilizing gherkin syntax.\n" +
                         "\u2022 Analyze the requirements from Business requirement document. \n"+
                         "\u2022 Develop test cases from the Requirement document and prioritize.\n" +
+                        "\u2022 Creating versatile data sets for edge case testing.\n" +
                         "\u2022 Analyze issues, recommends software changes and detailed bug report.\n" +
                         "\u2022 Functional,Smoke and regression testing in Production and UAT.\n"+
                         "\u2022 Create and maintain test cases, test results throughout SDLC.\n" +
