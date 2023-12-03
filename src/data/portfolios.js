@@ -150,7 +150,7 @@ const portfolios = [
 
         image: port4,
         title: 'Reinforcement learning applied to finance',
-        description: 'This is my thesis project, Here by utilizing reinforcement learning we developed a system which can trade automatically in stock trade market and make profit.'
+        description: 'This was my thesis project, Here by utilizing reinforcement learning we developed a system which can trade automatically in stock trade market and make profit.'
 
     },
     {
