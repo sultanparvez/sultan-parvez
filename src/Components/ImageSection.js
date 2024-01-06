@@ -23,15 +23,11 @@ const ImageSection=()=> {
                         <p>Full Name</p>
                         <p>Age</p>
                         <p>Nationality</p>
-                        <p>Languages</p>
-
                     </div>
                     <div className="info">
                         <p>: MD. Sultan Parvez</p>
-                        <p>: 25 </p>
+                        <p>: 26 </p>
                         <p>: Bangladeshi</p>
-                        <p>: English, Bengali, French, Chinese</p>
-
                     </div>
                 </div>
 
