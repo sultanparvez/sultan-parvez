@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 import {NavLink} from 'react-router-dom';
-import avatar from '../img/DP 2.jpg';
+import avatar from '../img/SP_DP01.jpg';
 import { useState } from "react";
 
 const Navigation=()=> {

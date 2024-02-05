@@ -1,6 +1,6 @@
 import React,{useRef,useEffect} from 'react'
 import styled from 'styled-components';
-import resume2 from '../img/webpic.png';
+import resume2 from '../img/SP_DP02.jpg';
 import cv from "../assets/MD_Sultan_Parvez.pdf"
 
 const ImageSection=()=> {
