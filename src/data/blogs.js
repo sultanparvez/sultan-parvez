@@ -1,16 +1,13 @@
-import blog1 from  '../img/blogs/blog1.svg';
-import blog3 from  '../img/blogs/blog3.svg';
-import blog2 from  '../img/blogs/blog2.svg';
-import blog4 from  '../img/blogs/blog4.svg';
+import blog1 from  '../img/blogs/blog5.svg';
 
 const blogs = [
     {
         id: 1,
-        title: 'How To Choose an Automation tools',
-        date: '01',
-        month: 'April',
+        title: 'Getting started with Cypress',
+        date: '11',
+        month: 'February',
         image: blog1,
-        link: 'https://www.google.co.uk/'
+        link: 'https://dev.to/sultanparvez/getting-started-with-cypress-4p05'
     }
 ]
 

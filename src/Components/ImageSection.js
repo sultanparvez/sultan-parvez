@@ -5,6 +5,9 @@ import cv from "../assets/MD_Sultan_Parvez.pdf"
 
 const ImageSection=()=> {
     const name = useRef('Sultan Parvez')
+    const currentYear = new Date().getFullYear();
+    const birthYear = 1997;
+    const age = currentYear - birthYear;
     return (
         <ImageSectionStyled>
             <div className="left-content">
@@ -26,7 +29,7 @@ const ImageSection=()=> {
                     </div>
                     <div className="info">
                         <p>: MD. Sultan Parvez</p>
-                        <p>: 26 </p>
+                        <p>: {age} </p>
                         <p>: Bangladeshi</p>
                     </div>
                 </div>

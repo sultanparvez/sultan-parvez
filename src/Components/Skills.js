@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import {InnerLayout} from '../styles/Layouts';
 import Title from '../Components/Title';
 import ProgressBar from './ProgressBar';
-import ToolsBar from './ToolsBar';
 
 const Skills=()=> {
     return (
@@ -15,94 +14,94 @@ const Skills=()=> {
                     <div className="skills">
                         <ProgressBar 
                             title={'Javascript'}
-                            width={'80%'}
+                            width={'100%'}
                          //   text={'80%'}
                         />
                          <ProgressBar
                             title={'Cypress'}
-                            width={'80%'}
+                            width={'100%'}
                           //  text={'65%'}
                         />
                          <ProgressBar
                             title={'Selenium'}
-                            width={'78%'}
+                            width={'100%'}
                           //  text={'20%'}
                         />
                            <ProgressBar
                             title={'Robot Framework'}
-                            width={'78%'}
+                            width={'100%'}
                           //  text={'20%'}
                         />
                         <ProgressBar
                             title={'Postman'}
-                            width={'76%'}
+                           width={'100%'}
                           //  text={'20%'}
                         />
                         <ProgressBar
                             title={'Mocha'}
-                            width={'75%'}
+                           width={'100%'}
                           //  text={'75%'}
                         />
                         <ProgressBar 
                             title={'MySQL'}
-                            width={'72%'}
+                            width={'100%'}
                          //   text={'50%'}
                         />
                         <ProgressBar
                             title={'Node Js'}
-                            width={'70%'}
+                            width={'100%'}
                             // text={'70%'}
                         />
                        
                         <ProgressBar
                             title={'Java'}
-                            width={'70%'}
+                            width={'100%'}
                             //  text={'66%'}
                         />
                         <ProgressBar
                             title={'PYTHON'}
-                            width={'68%'}
+                           width={'100%'}
                           //  text={'68%'}
                         />
 
                         <ProgressBar
                             title={'React Js'}
-                            width={'55%'}
+                            width={'100%'}
                            // text={'55%'}
                         />
                         <ProgressBar
                             title={'MongoDB'}
-                            width={'50%'}
+                           width={'100%'}
                          //   text={'50%'}
                         />
                         <ProgressBar
                             title={'Jmeter'}
-                            width={'50%'}
+                           width={'100%'}
                          //   text={'50%'}
                         />
                         <ProgressBar
                             title={'Chai'}
-                            width={'50%'}
+                           width={'100%'}
                         //    text={'50%'}
                         />
                         <ProgressBar
                             title={'Cucumber'}
-                            width={'50%'}
+                           width={'100%'}
                         //    text={'50%'}
                         />
-                        {/* <ProgressBar
+                         <ProgressBar
                             title={'Jenkins'}
-                            width={'45%'}
+                            width={'100%'}
                             //  text={'20%'}
-                        /> */}
-                        {/* <ProgressBar
+                        /> 
+                        <ProgressBar
                             title={'Docker'}
-                            width={'45%'}
+                            width={'100%'}
                             //  text={'20%'}
-                        /> */}
+                        />
                            <ProgressBar
                             title={'Django'}
-                            width={'35%'}
+                            width={'100%'}
                           //  text={'45%'}
                         />
                     </div>
