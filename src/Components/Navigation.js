@@ -6,6 +6,11 @@ import { useState } from "react";
 
 const Navigation=()=> {
     const [navToggle, setNavToggle] = useState(false);
+    const handleNavLinkClick = () => {
+        setTimeout(() => {
+            setNavToggle(navToggle);
+        }, 100);
+    };
     return (
         <NavigationStyled>
             <div className="avatar">
@@ -16,7 +21,7 @@ const Navigation=()=> {
                     <NavLink to="/" activeClassName="active-class" exact>Home</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink onClick={() => setNavToggle(!navToggle)} to="/about" activeClassName="active-class" exact>About</NavLink>
+                    <NavLink onClick={handleNavLinkClick} to="/about" activeClassName="active-class" exact>About</NavLink>
                 </li>
                 <li className="nav-item">
                     <NavLink to="/resume" activeClassName="active-class" exact>Expertise & Accomplishments</NavLink>
@@ -39,7 +44,7 @@ const Navigation=()=> {
 }
 
 const NavigationStyled = styled.nav`
-    display: flex;
+    display: ${props => props.navToggle ? 'none' : 'flex'};
     justify-content: space-between;
     flex-direction: column;
     align-items: center;

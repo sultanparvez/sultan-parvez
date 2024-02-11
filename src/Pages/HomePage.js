@@ -17,7 +17,7 @@ const HomePage=()=> {
                 </h1>
                 <p >
                     A Software Engineer, Currently working as a Software Quality Assurance Engineer at DSi.
-                    I enjoy learning and exploring new things.
+                    I find learning and exploring new things thrilling and satisfactory.
                 </p>
                 <div className="icons">
                     <a target="_blank" href="https://www.linkedin.com/in/sultanparvez/" className="icon i-facebook">
