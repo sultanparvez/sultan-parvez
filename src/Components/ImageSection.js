@@ -7,7 +7,8 @@ const ImageSection=()=> {
     const name = useRef('Sultan Parvez')
     const currentYear = new Date().getFullYear();
     const birthYear = 1997;
-    const age = currentYear - birthYear;
+    // Subtracted by one since my birthdate is Dec 19
+    const age = (currentYear - birthYear)-1;
     return (
         <ImageSectionStyled>
             <div className="left-content">
