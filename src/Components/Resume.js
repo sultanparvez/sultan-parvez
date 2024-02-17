@@ -25,7 +25,8 @@ function Resume() {
                         link={'http://dsinnovators.com/'}
                         text={
                         "\u2022 Developing Automation Scripts and impenting them on CI/CD pipeline.\n" +
-                        "\u2022 UI Automation Testing, API testing.\n" +
+                        "\u2022 UI Automation Testing, API Automation testing.\n" +
+                        "\u2022 Documenting the Automation process.\n"+
                         "\u2022 Develop test cases from the Requirement document by utilizing gherkin syntax.\n" +
                         "\u2022 Analyze the requirements from Business requirement document. \n"+
                         "\u2022 Develop test cases from the Requirement document and prioritize.\n" +
