@@ -24,18 +24,18 @@ function Resume() {
                         subTitle={'Dynamic Solution Innovators Ltd.'}
                         link={'http://dsinnovators.com/'}
                         text={
-                        "\u2022 Developing Automation Scripts And Impenting Them On CI/CD Pipeline.\n" +
-                        "\u2022 UI Automation Testing, API Automation Testing.\n" +
-                        "\u2022 Documenting The Automation Process.\n"+
-                        "\u2022 Develop Test Cases From The Requirement Document By Utilizing Gherkin Syntax.\n" +
-                        "\u2022 Analyze The Requirements From Business Requirement Document. \n"+
-                        "\u2022 Develop Test Cases From The Requirement Document And Prioritize.\n" +
-                        "\u2022 Creating Versatile Data Sets For Edge Case Testing.\n" +
-                        "\u2022 Analyze Issues, Recommends Software Changes And Detailed Bug Report.\n" +
-                        "\u2022 Functional,Smoke and Regression Testing In Production And UAT.\n"+
-                        "\u2022 Create And Maintain Test Cases, Test Results Throughout SDLC.\n" +
-                        "\u2022 Contribute To Sprint Planning And Daily Stand-ups Meeting.\n"+
-                        "\u2022 Mentoring new QA Members In The Team.\n"}
+                            "\u2022 Developing Automation Scripts And implementing them On the CI/CD Pipeline.\n" +
+                            "\u2022 UI Automation Testing, API Automation Testing.\n" +
+                            "\u2022 Documenting The Automation Process.\n" +
+                            "\u2022 Develop Test Cases From The Requirement Document By Utilizing Gherkin Syntax.\n" +
+                            "\u2022 Analyze The Requirements From The Business Requirement Document.\n" + 
+                            "\u2022 Develop Test Cases From The Requirement Document And Prioritize.\n" +
+                            "\u2022 Creating Versatile Data Sets For Edge Case Testing.\n" +
+                            "\u2022 Analyze Issues, Recommends Software Changes, And Detailed Bug Reports.\n" +
+                            "\u2022 Functional, Smoke, And Regression Testing In Production And UAT.\n" +
+                            "\u2022 Create And Maintain Test Cases and test Results Throughout SDLC.\n" +
+                            "\u2022 Contribute To Sprint Planning And Daily Stand-ups Meeting.\n" +
+                            "\u2022 Mentoring new QA Members In The Team.\n" }
                     />
 
                 </div>
