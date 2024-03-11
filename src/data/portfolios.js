@@ -51,7 +51,6 @@ const portfolios = [
             ' Proceed to continue. '+
             ' Finish the checkout process. ' +
             ' Asserting various elements and values in every steps mentioned above.'
-
     },
     {
         id: 3,
@@ -69,10 +68,20 @@ const portfolios = [
             ' Validating seleted product price totals with total price '+
             ' Proceed to continue. '+
             ' Validating success message. ' 
-
     },
     {
         id: 4,
+        category: 'Automation',
+        link1: 'https://github.com/sultanparvez/UI-Automation-Selenium-Python',
+        icon1: 'G',
+
+        image: automation,
+        title: 'UI Automation - Selenium Python',
+        description: 'Automation scripts for UI test automation using selenium,python,unnittest,HtmlTestRunner. Agenda: ' +
+            'Login in to an website and assert successful login.' 
+    },
+    {
+        id: 5,
         category: 'MERN',
         link1: 'https://github.com/sultanparvez/souvenir-memoir',
         // link2: 'https://souvenir-memoirs.netlify.app/',
@@ -83,7 +92,7 @@ const portfolios = [
         description:"An website where you can share your precious memory with others."
     },
     {
-        id: 5,
+        id: 6,
         category: 'React',
         link1: 'https://github.com/sultanparvez/ice-breaking',
         // link2: 'https://ice-breaking.netlify.app/',
@@ -94,7 +103,7 @@ const portfolios = [
         description:"A replica of popular matchmaking sites, Users can swap on others profile if they find someone with similar interests and get connected to each others."
     },
     {
-        id: 15,
+        id: 16,
         category: 'MERN',
         link1: 'https://github.com/sultanparvez/restaurant-reviews',
         icon1: 'G',
@@ -103,7 +112,7 @@ const portfolios = [
         description: 'A restaurant erp system where user can login and check and add reviews, You can search the restaurant based on there name , ZipCode and etc.'
     },
     {
-        id: 16,
+        id: 17,
         category: 'MERN',
         link1: 'https://github.com/sultanparvez/Task-Tracker',
         icon1: 'G',
@@ -112,7 +121,7 @@ const portfolios = [
         description: 'A simple website where you can keep track of task assigned to different Individual.'
     },
     {
-        id: 6,
+        id: 7,
         category: 'Android Development',
         link1: 'https://github.com/sultanparvez/PrayerTimeNotification',
         icon1: 'G',
@@ -121,7 +130,7 @@ const portfolios = [
         description: 'This is an academic project. an android application, that provides user prayer time. it also has features like view maps and set alarm.'
     },
     {
-        id: 7,
+        id: 8,
         category: 'Django',
         link1: 'https://github.com/sultanparvez/personal_portfolio',
         icon1: 'G',
@@ -131,7 +140,7 @@ const portfolios = [
         description: 'A preliminary personal portfolio developed with django'
     },
     {
-        id: 8,
+        id: 9,
         category: 'IOT',
         link1: 'https://github.com/sultanparvez/Accident-Prevention-Model',
         icon1: 'G',
@@ -143,7 +152,7 @@ const portfolios = [
 
     },
     {
-        id: 9,
+        id: 10,
         category: 'Machine Learning',
         // link1: 'https://github.com/sultanparvez/Reinforcement-learning-applied-to-finance',
         icon1: 'G',
@@ -154,7 +163,7 @@ const portfolios = [
 
     },
     {
-        id: 10,
+        id: 11,
         category: 'IOT',
         link1: 'https://github.com/sultanparvez/Weather-Station',
         icon1: 'G',
@@ -166,7 +175,7 @@ const portfolios = [
     },
   
     {
-        id: 11,
+        id: 12,
         category: 'Automation',
         link1: 'https://github.com/sultanparvez/souvenir-memoirs-api-testing',
         icon1: 'G',
@@ -177,7 +186,7 @@ const portfolios = [
 
     },
     {
-        id: 12,
+        id: 13,
         category: 'Automation',
         link1: 'https://github.com/sultanparvez/e_commerce_automation',
         icon1: 'G',
@@ -187,7 +196,7 @@ const portfolios = [
         description: 'Automation script, developed using cucumber, webdriver i/o. Here I tested different functionality of the site. i.e- Login Auhtentication, Searching product, Navigation'
 
     },    {
-        id: 13,
+        id: 14,
         category: 'Automation',
         link1: 'https://github.com/sultanparvez/souvenir-memoir-ui-automation',
         icon1: 'G',
@@ -198,7 +207,7 @@ const portfolios = [
 
     },
     {
-        id: 14,
+        id: 15,
         category: 'Automation',
         link1: 'https://github.com/sultanparvez/Test-Tracker-Automation',
         icon1: 'G',
@@ -209,7 +218,7 @@ const portfolios = [
 
     },
     {
-        id: 18,
+        id: 19,
         category: 'Automation',
         link1: 'https://github.com/sultanparvez/UI-Automation-Robot-framework',
         icon1: 'G',
@@ -219,9 +228,7 @@ const portfolios = [
             ' Validate unsuccesful login. ' +
             ' Veify the end to end ecommerce product purchase process. '+
             ' Verify user is able to fillup the login form.'
-
     },
- 
 
 ]
 
