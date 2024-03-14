@@ -8,6 +8,7 @@ import port7 from '../img/portImages/port6.jpg';
 import iot from  '../img/portImages/iot.jpg';
 import automation from  '../img/portImages/automation.jpg';
 import automation2 from  '../img/portImages/automation2.jpg';
+import pytest from '../img/portImages/pytest.png'
 import selenium from '../img/portImages/Selenium.PNG'
 import Cypress from '../img/portImages/Cypress.PNG'
 import Cucumber from '../img/portImages/cucumber.PNG'
@@ -32,6 +33,25 @@ const portfolios = [
             ' Finish the checkout process. '+
             ' Asserting various elements and values in every steps mentioned above.'
 
+    },
+    {
+        id: 20,
+        category: 'Automation',
+        link1: 'https://github.com/sultanparvez/UI-Automation-Selenium-Pytest',
+        icon1: 'G',
+
+        image: pytest,
+        title: 'UI Automation - Selenium Pytest',
+        description: 'Automation scripts for UI test automation using selenium,python,pytest,py-html. Agenda: ' +
+        ' Navigating a to a e-commerce site.' +
+        ' Login to the website. ' +
+        ' Select few products.  '+
+        ' Remove a a selected product. ' +
+        ' Proceed to checkout. ' +
+        ' Fill up the shipping details. '+
+        ' Proceed to continue. '+
+        ' Finish the checkout process. ' +
+        ' Asserting various elements and values in every steps mentioned above.'
     },
     {
         id: 2,
