@@ -104,6 +104,11 @@ const Skills=()=> {
                             width={'100%'}
                           //  text={'45%'}
                         />
+                        <ProgressBar 
+                            title={'Report Portal'}
+                            width={'100%'}
+                         //   text={'80%'}
+                        />
                     </div>
                 </InnerLayout>
         </SkillsStyled>
