@@ -18,7 +18,7 @@ const portfolios = [
     {
         id: 1,
         category: 'Automation',
-        link1: 'https://github.com/sultanparvez/UI-Automation-Cypress',
+        link1: 'https://github.com/sultanparvez/UI-Automation-Cypress-POM',
         icon1: 'G',
         image: Cypress,
         title: 'UI Automation - Cypress',
