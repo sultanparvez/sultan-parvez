@@ -30,7 +30,7 @@ const PassionSection=() =>{
                     <PassionCard
                         image={reading} 
                         title={'Reading'}
-                        paragraph={"Recently, I've been diving into books more often. They provide a break from screens and expose me to top-tier authors."}
+                        paragraph={"Recently, I've been diving into books more often. They provide a break from screens and expose me to top-tier authors. Some of the books I've read include 'Atomic Habits', 'Rich Dad Poor Dad', 'The One Thing', 'One Minute Manager', and 'The Communication  Book'."}
                     />
                 </div>
             </ServicesSectionStyled>
