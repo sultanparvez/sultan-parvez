@@ -5,7 +5,7 @@ import Title from '../Components/Title';
 import PassionCard from './PassionCard';
 import design from '../img/design.svg';
 import intelligence from '../img/intelligence.svg';
-import gamedev from '../img/game-dev.svg';
+import reading from '../img/reading.svg'
 
 const PassionSection=() =>{
     return (
@@ -28,9 +28,9 @@ const PassionSection=() =>{
                         />
                     </div>
                     <PassionCard
-                        image={gamedev} 
-                        title={'Gaming'}
-                        paragraph={'My favorite pastime has always been video games. CS:GO and Valorant are two of my favorite first-person shooters.'}
+                        image={reading} 
+                        title={'Reading'}
+                        paragraph={"Recently, I've been diving into books more often. They provide a break from screens and expose me to top-tier authors."}
                     />
                 </div>
             </ServicesSectionStyled>
