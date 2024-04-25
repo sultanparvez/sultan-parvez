@@ -9,11 +9,10 @@ const ResumePage=() =>{
     return (
         <MainLayout>
             {/*<Publication/>*/}
+            <Resume />
             <Skills />
             <CICDTools/>
             <Tools />
-            <Resume />
-
         </MainLayout>
     )
 }
