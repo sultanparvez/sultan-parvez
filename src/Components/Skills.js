@@ -23,6 +23,11 @@ const Skills=()=> {
                           //  text={'65%'}
                         />
                          <ProgressBar
+                            title={'REST Assured'}
+                            width={'100%'}
+                          //  text={'65%'}
+                        />
+                         <ProgressBar
                             title={'Selenium'}
                             width={'100%'}
                           //  text={'20%'}
