@@ -37,7 +37,7 @@ const ContactPage=()=> {
                </a>
                <a
                  target="_blank"
-                 href="https://www.instagram.com/_fahim.dipto/"
+                 href="https://www.instagram.com/sultanparvez.me/"
                  className="icon i-insta"
                  rel="noreferrer"
                >
@@ -45,7 +45,7 @@ const ContactPage=()=> {
                </a>
                <a
                  target="_blank"
-                 href="https://www.facebook.com/tfangpOwer"
+                 href="https://www.facebook.com/sultanparvez.me"
                  className="icon i-fb"
                  rel="noreferrer"
                >
@@ -53,7 +53,7 @@ const ContactPage=()=> {
                </a>
                <a
                  target="_blank"
-                 href="https://twitter.com/_SultanParvez"
+                 href="https://x.com/_SultanParvez"
                  className="icon i-twitter"
                  rel="noreferrer"
                >
@@ -89,7 +89,7 @@ const ContactPage=()=> {
              <ContactItem
                title={"Address"}
                icon={location}
-               cont1={"Dhaka, Bangladesh"}
+               cont1={"Frederiksberg, Copenhagen"}
              />
            </div>
          </InnerLayout>

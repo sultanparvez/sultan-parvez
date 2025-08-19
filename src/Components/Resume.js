@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import {InnerLayout} from '../styles/Layouts';
+import { InnerLayout } from '../styles/Layouts';
 import Title from '../Components/Title';
 import SmallTitle from '../Components/SmallTitle';
 import BusinessCenterIcon from '@material-ui/icons/BusinessCenter';
@@ -18,24 +18,32 @@ function Resume() {
                     <SmallTitle icon={briefcase} title={'Working Experience'} />
                 </div>
                 <div className="resume-content">
-                    <ResumeItem 
-                        year={'February 2021  - Present'}
-                        title={'Software Quality Assurance Engineering'}
-                        subTitle={'Dynamic Solution Innovators Ltd.'}
+                    <ResumeItem
+                        year={'February 2021 - August 2025'}
+                        title={'Dynamic Solution Innovators Ltd.'}
+                        subTitle={'Software Quality Assurance Engineering'}
                         link={'http://dsinnovators.com/'}
                         text={
-                            "\u2022 Developing Automation Scripts And implementing them On the CI/CD Pipeline.\n" +
-                            "\u2022 UI Automation Testing, API Automation Testing.\n" +
-                            "\u2022 Documenting The Automation Process.\n" +
-                            "\u2022 Develop Test Cases From The Requirement Document By Utilizing Gherkin Syntax.\n" +
-                            "\u2022 Analyze The Requirements From The Business Requirement Document.\n" + 
-                            "\u2022 Develop Test Cases From The Requirement Document And Prioritize.\n" +
-                            "\u2022 Creating Versatile Data Sets For Edge Case Testing.\n" +
-                            "\u2022 Analyze Issues, Recommends Software Changes, And Detailed Bug Reports.\n" +
-                            "\u2022 Functional, Smoke, And Regression Testing In Production And UAT.\n" +
-                            "\u2022 Create And Maintain Test Cases and test Results Throughout SDLC.\n" +
-                            "\u2022 Contribute To Sprint Planning And Daily Stand-ups Meeting.\n" +
-                            "\u2022 Mentoring new QA Members In The Team.\n" }
+                            "⚡ Automation Engineer:\n" +
+                            "• Developing automation scripts and implementing them on the CI/CD pipeline.\n" +
+                            "• UI automation testing and API automation testing.\n" +
+                            "• Documenting the automation process.\n\n" +
+
+                            "⚡ QA Coach:\n" +
+                            "• Mentoring and training: Guide and mentor team members across the company in automation and QA practices, helping them adopt industry-standard tools, frameworks, and methodologies.\n" +
+                            "• Driving quality culture: Promote a mindset of high-quality standards, encouraging teams to embed testing and automation into their development process while ensuring best practices are followed.\n" +
+                            "• Process improvement & support: Provide hands-on support with test design, automation strategies, and reporting, while continuously improving QA processes to increase efficiency and reliability.\n\n" +
+
+                            "⚡ QA Engineer:\n" +
+                            "• Develop test cases from the requirement document by utilizing Gherkin syntax.\n" +
+                            "• Analyze the requirements from the business requirement document.\n" +
+                            "• Develop and prioritize test cases from the requirement document.\n" +
+                            "• Create versatile data sets for edge case testing.\n" +
+                            "• Analyze issues, recommend software changes, and prepare detailed bug reports.\n" +
+                            "• Perform functional, smoke, and regression testing in production and UAT.\n" +
+                            "• Create and maintain test cases and test results throughout the SDLC.\n" +
+                            "• Contribute to sprint planning and daily stand-ups meetings.\n"
+                        }
                     />
 
                 </div>
@@ -43,14 +51,14 @@ function Resume() {
                     <SmallTitle icon={school} title={'Educational Qualifications'} />
                 </div>
                 <div className="resume-content">
-                    <ResumeItem 
+                    <ResumeItem
                         year={'Janurary 2016 - October 2020'}
                         title={'B.Sc. in Computer Science & Engineering'}
-                        link ={'https://www.bracu.ac.bd/'}
+                        link={'https://www.bracu.ac.bd/'}
                         subTitle={'BRAC University'}
                         text={"\u2022  CGPA: 3.37 out of 4.00."}
                     />
-                    <ResumeItem 
+                    <ResumeItem
                         year={'June 2013 - August 2015'}
                         title={'Higher Secondary School Certificate '}
                         link={"https://imperialcollege.edu.bd/"}

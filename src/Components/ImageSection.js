@@ -1,27 +1,31 @@
-import React,{useRef,useEffect} from 'react'
+import React, { useRef, useEffect } from 'react'
 import styled from 'styled-components';
 import resume2 from '../img/SP_DP02.jpg';
 import cv from "../assets/MD_Sultan_Parvez.pdf"
 
-const ImageSection=()=> {
+const ImageSection = () => {
     const name = useRef('Sultan Parvez')
     const currentYear = new Date().getFullYear();
     const birthYear = 1997;
     // Subtracted by one since my birthdate is Dec 19
-    const age = (currentYear - birthYear)-1;
+    const age = (currentYear - birthYear) - 1;
     return (
         <ImageSectionStyled>
             <div className="left-content">
-                <img src={resume2} alt=""/>
+                <img src={resume2} alt="" />
             </div>
             <div className="right-content">
                 <h4>I am <span>{name.current}</span></h4>
                 <p className="paragraph">
-                As a seasoned Software Quality Assurance (SQA) Engineer, I have expertise in automation using tools such as Cypress, Selenium, Appium, and Robot Framework, as well as proficiency in programming languages like Java, Python, and JavaScript. 
-                Also, I am experienced in API testing using Postman and performance testing with JMeter. I am committed to learning new technologies and tools to optimize the software testing process and ensure exceptional product quality.
-                With a keen eye for detail and effective problem-solving skills, I work closely with stakeholders to deliver projects on time and meet or surpass customer expectations.
-                Additionally, I am familiar with the MERN stack.
+                    Currently pursuing an MSc in Quantum Information Science at the University of Copenhagen, where I am developing advanced analytical and computational problem-solving skills while exploring the intersection of quantum technologies, algorithms, and information systems.
+                    This academic journey strengthens my ability to reason about complex systems, think critically, and adapt to cutting-edge technological trends.
                 </p>
+
+                <p className="paragraph mt-6">
+                    Previously, I worked as a QA Automation Engineer and QA Coach. In this capacity, I designed and executed automation frameworks using Cypress, Selenium, Appium, and Robot Framework with proficiency in Java, Python, and JavaScript, while also mentoring and guiding teams to adopt best practices in testing and automation.
+                    I have hands-on experience with API testing (Postman), performance testing (JMeter), and familiarity with the MERN stack, which enables effective collaboration across development and testing environments. With a keen eye for detail and strong problem-solving skills, I ensured software quality and fostered a culture of continuous improvement, while delivering projects on time and meeting or exceeding customer expectations.
+                </p>
+
                 <div className="about-info">
                     <div className="info-title">
                         <p>Full Name</p>
@@ -29,14 +33,14 @@ const ImageSection=()=> {
                         <p>Nationality</p>
                     </div>
                     <div className="info">
-                        <p>: MD. Sultan Parvez</p>
+                        <p>: Md Sultan Parvez</p>
                         <p>: {age} </p>
                         <p>: Bangladeshi</p>
                     </div>
                 </div>
 
                 <a target="_blank" href={cv}>
-                <button  className="btn">Resume</button></a>
+                    <button className="btn">Resume</button></a>
 
             </div>
         </ImageSectionStyled>
