@@ -16,8 +16,10 @@ const HomePage=()=> {
                     <span> Sultan Parvez</span>
                 </h1>
                 <p >
-                    A Software Engineer, Currently working as a Software Quality Assurance Engineer at DSi.
-                    I find learning and exploring new things thrilling and satisfactory.
+                    Currently pursuing an MSc in Quantum Information Science at the University of Copenhagen,
+                    with a strong interest in quantum computing and quantum algorithms. I hold a BSc in Computer Science
+                    and Engineering, where my thesis explored reinforcement learning in finance. I am eager to deepen
+                    my expertise and contribute to research at the intersection of quantum technologies and advanced computation.
                 </p>
                 <div className="icons">
                     <a target="_blank" href="https://www.linkedin.com/in/sultanparvez/" className="icon i-facebook">
