@@ -12,7 +12,6 @@ import GithubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import TwitterIcon from "@material-ui/icons/Twitter";
-import XIcon from '@mui/icons-material/X';
 
 const ContactPage=()=> {
     const phone = <PhoneIcon />
@@ -58,7 +57,7 @@ const ContactPage=()=> {
                  className="icon i-twitter"
                  rel="noreferrer"
                >
-                 <XIcon />
+                 <TwitterIcon/>
                </a>
                <a
                  target="_blank"
