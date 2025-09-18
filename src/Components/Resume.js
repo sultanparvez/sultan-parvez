@@ -51,6 +51,12 @@ function Resume() {
                     <SmallTitle icon={school} title={'Educational Qualifications'} />
                 </div>
                 <div className="resume-content">
+                      <ResumeItem
+                        year={'September 2025 - Present'}
+                        title={'M.Sc. in Quantum Information Science'}
+                        link={'https://www.ku.dk/'}
+                        subTitle={'University of Copenhagen'}
+                    />
                     <ResumeItem
                         year={'Janurary 2016 - October 2020'}
                         title={'B.Sc. in Computer Science & Engineering'}

@@ -14,7 +14,7 @@ const CICDTools=()=> {
                     <div className="skills">
 
                     <ToolsBar
-                            title={'Github Actions'}
+                            title={'Jenkins'}
                         />
 
                         <ToolsBar 
@@ -22,7 +22,7 @@ const CICDTools=()=> {
                         
                         />
                          <ToolsBar
-                            title={'Jenkins'}
+                            title={'Github Action'}
                         
                         />
                          <ToolsBar
