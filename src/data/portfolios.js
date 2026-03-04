@@ -79,8 +79,8 @@ const portfolios = [
         icon1: 'G',
 
         image: Cucumber,
-        title: 'UI Automation - Cucmber Framework',
-        description: 'Automation scripts for UI test automation using cypress and cucmber framework. Agenda: ' +
+        title: 'UI Automation - Cucumber Framework',
+        description: 'Automation scripts for UI test automation using cypress and Cucumber framework. Agenda: ' +
             ' Navigating a to a e-commerce site.' +
             ' Validating some generic scenario. ' +
             ' Select few products.  '+
@@ -97,7 +97,7 @@ const portfolios = [
 
         image: automation,
         title: 'UI Automation - Selenium Python',
-        description: 'Automation scripts for UI test automation using selenium,python,unnittest,HtmlTestRunner. Agenda: ' +
+        description: 'Automation scripts for UI test automation using selenium,python,unittest,HtmlTestRunner. Agenda: ' +
             'Login in to an website and assert successful login.' 
     },
     {
@@ -129,7 +129,7 @@ const portfolios = [
         icon1: 'G',
         image: port3,
         title: 'Restaurant Reviews',
-        description: 'A restaurant erp system where user can login and check and add reviews, You can search the restaurant based on there name , ZipCode and etc.'
+        description: 'A restaurant erp system where user can login and check and add reviews, You can search the restaurant based on their name , ZipCode and etc.'
     },
     {
         id: 17,
@@ -190,7 +190,7 @@ const portfolios = [
 
         image: iot,
         title: 'Weather Station',
-        description: 'A system that can predict the weather condition such as wheather is gonna rain in the upcoming few days, How the soil is, how humid the condition is.'
+        description: 'A system that can predict the weather condition such as whether is gonna rain in the upcoming few days, How the soil is, how humid the condition is.'
 
     },
   
