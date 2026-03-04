@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
-import GitHub from '@material-ui/icons/GitHub';
-import WebIcon from '@material-ui/icons/Web';
+import GitHub from '@mui/icons-material/GitHub';
+import WebIcon from '@mui/icons-material/Web';
 
 const Menu=({menuItem})=> {
     return (

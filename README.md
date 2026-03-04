@@ -1,7 +1,7 @@
 Personal Portfolio
 
 ## Included
-* @material-ui/core,
-* @material-ui/icons,
+* @@mui/material,
+* @mui/icons-material,
 * react,
 * sass

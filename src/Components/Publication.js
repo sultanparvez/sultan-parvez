@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import {InnerLayout} from '../styles/Layouts';
 import Title from '../Components/Title';
 import SmallTitle from '../Components/SmallTitle';
-import LibraryBooksIcon from '@material-ui/icons/LibraryBooks';
+import LibraryBooksIcon from '@mui/icons-material/LibraryBooks';
 import ResumeItem from '../Components/ResumeItem';
 
 const Publication=() =>{

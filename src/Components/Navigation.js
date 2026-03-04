@@ -2,49 +2,44 @@ import React from 'react'
 import styled from 'styled-components';
 import {NavLink} from 'react-router-dom';
 import avatar from '../img/SP_DP01.jpg';
-import { useState } from "react";
 
-const Navigation=()=> {
-    const [navToggle, setNavToggle] = useState(false);
-    const handleNavLinkClick = () => {
-        setTimeout(() => {
-            setNavToggle(navToggle);
-        }, 100);
-    };
+const Navigation = ({ setNavToggle }) => {
+    const closeNav = () => setNavToggle(false);
+
     return (
         <NavigationStyled>
             <div className="avatar">
-                <img src={avatar} alt=""/>
+                <img src={avatar} alt="Sultan Parvez" />
             </div>
             <ul className="nav-items">
                 <li className="nav-item">
-                    <NavLink to="/" activeClassName="active-class" exact>Home</NavLink>
+                    <NavLink to="/" activeClassName="active-class" exact onClick={closeNav}>Home</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink onClick={handleNavLinkClick} to="/about" activeClassName="active-class" exact>About</NavLink>
+                    <NavLink to="/about" activeClassName="active-class" exact onClick={closeNav}>About</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink to="/resume" activeClassName="active-class" exact>Expertise & Accomplishments</NavLink>
+                    <NavLink to="/resume" activeClassName="active-class" exact onClick={closeNav}>Expertise & Accomplishments</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink to="/portfolios" activeClassName="active-class" exact>Pet Projects</NavLink>
-                </li>
-                    <li className="nav-item">
-                    <NavLink to="/blogs" activeClassName="active-class" exact>Blogs</NavLink>
+                    <NavLink to="/portfolios" activeClassName="active-class" exact onClick={closeNav}>Pet Projects</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink to="/contact" activeClassName="active-class" exact>Contact</NavLink>
+                    <NavLink to="/blogs" activeClassName="active-class" exact onClick={closeNav}>Blogs</NavLink>
+                </li>
+                <li className="nav-item">
+                    <NavLink to="/contact" activeClassName="active-class" exact onClick={closeNav}>Contact</NavLink>
                 </li>
             </ul>
             <footer className="footer">
-                <p style={{background: 'transparent',fontFamily:  'cursive'}}>&copy;<b>Sultan Parvez</b></p>
+                <p style={{background: 'transparent', fontFamily: 'cursive'}}>&copy;<b>Sultan Parvez</b></p>
             </footer>
         </NavigationStyled>
     )
 }
 
 const NavigationStyled = styled.nav`
-    display: ${props => props.navToggle ? 'none' : 'flex'};
+    display: flex;
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
@@ -92,8 +87,8 @@ const NavigationStyled = styled.nav`
                     left: 0;
                     width: 0;
                     height: 50%;
-                    background-color: var( --primary-color);
-                    transition: All 0.4s cubic-bezier(1,-0.2,.25,.95) ;
+                    background-color: var(--primary-color);
+                    transition: All 0.4s cubic-bezier(1,-0.2,.25,.95);
                     opacity: 0.21;
                     z-index: -1;
                 }
@@ -117,4 +112,5 @@ const NavigationStyled = styled.nav`
         }
     }
 `;
+
 export default Navigation;
